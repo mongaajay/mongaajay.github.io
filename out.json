@@ -1,0 +1,10023 @@
+{
+"name" : "main",
+"children" : [
+{
+"name" : "apply_settings",
+"children" : [
+{
+"name" : "toolbar_apply_settings",
+"children" : [
+{
+"name" : "toolbar_set_icon_size",
+"children" : [
+{
+"name" : "ui_get_gtk_settings_integer"}
+]
+},
+{
+"name" : "toolbar_set_icon_style",
+"children" : [
+{
+"name" : "ui_get_gtk_settings_integer"}
+]
+}
+]
+},
+{
+"name" : "toolbar_show_hide",
+"children" : [
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_widget_show_hide"}
+]
+},
+{
+"name" : "toolbar_update_ui",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_swap_sidebar_pos",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "ui_update_fold_items",
+"children" : [
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_widget_show_hide"}
+]
+},
+{
+"name" : "ui_update_view_editor_menu_items",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+}
+]
+},
+{
+"name" : "build_init",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_type",
+"children" : [
+{
+"name" : "geany_menu_button_action_class_intern_init",
+"children" : [
+{
+"name" : "geany_menu_button_action_class_init",
+"children" : [
+{
+"name" : "delegate_button_activated"},
+{
+"name" : "geany_menu_button_action_create_tool_item",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_type"}
+]
+},
+{
+"name" : "geany_menu_button_action_finalize",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_type"}
+]
+},
+{
+"name" : "geany_menu_button_action_set_property",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_type"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "geany_menu_button_action_init",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_type"}
+]
+}
+]
+},
+{
+"name" : "geany_menu_button_action_set_menu",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_type"},
+{
+"name" : "menu_items_changed_cb",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_type"}
+]
+}
+]
+},
+{
+"name" : "on_project_close"},
+{
+"name" : "on_set_build_commands_activate",
+"children" : [
+{
+"name" : "project_build_properties",
+"children" : [
+{
+"name" : "show_project_properties",
+"children" : [
+{
+"name" : "build_free_fields"},
+{
+"name" : "create_properties_dialog",
+"children" : [
+{
+"name" : "create_project_dialog"},
+{
+"name" : "on_project_properties_base_path_button_clicked"},
+{
+"name" : "on_radio_long_line_custom_toggled"},
+{
+"name" : "ui_entry_add_clear_icon",
+"children" : [
+{
+"name" : "entry_clear_icon_release_cb"}
+]
+},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "dialogs_show_msgbox",
+"children" : [
+{
+"name" : "show_msgbox_dialog"}
+]
+},
+{
+"name" : "insert_build_page",
+"children" : [
+{
+"name" : "build_commands_table",
+"children" : [
+{
+"name" : "build_add_dialog_row",
+"children" : [
+{
+"name" : "get_build_cmd",
+"children" : [
+{
+"name" : "get_next_build_cmd",
+"children" : [
+{
+"name" : "document_get_current",
+"children" : [
+{
+"name" : "document_find_by_sci"}
+]
+},
+{
+"name" : "printfcmds"}
+]
+}
+]
+},
+{
+"name" : "id_to_str"},
+{
+"name" : "on_clear_dialog_row",
+"children" : [
+{
+"name" : "get_next_build_cmd"},
+{
+"name" : "id_to_str"},
+{
+"name" : "set_build_command_entry_text"},
+{
+"name" : "set_row_color"}
+]
+},
+{
+"name" : "on_entry_focus",
+"children" : [
+{
+"name" : "set_row_color"}
+]
+},
+{
+"name" : "on_label_button_clicked",
+"children" : [
+{
+"name" : "dialogs_show_input",
+"children" : [
+{
+"name" : "dialogs_show_input_full",
+"children" : [
+{
+"name" : "add_input_widgets",
+"children" : [
+{
+"name" : "on_input_dialog_response",
+"children" : [
+{
+"name" : "ui_combo_box_add_to_history",
+"children" : [
+{
+"name" : "tree_model_find_text",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "on_input_dialog_show"},
+{
+"name" : "on_input_entry_activate"},
+{
+"name" : "ui_entry_add_clear_icon"}
+]
+},
+{
+"name" : "ui_dialog_vbox_new"}
+]
+},
+{
+"name" : "on_dialog_input"}
+]
+},
+{
+"name" : "set_row_color"}
+]
+},
+{
+"name" : "set_build_command_entry_text"},
+{
+"name" : "set_row_color"}
+]
+},
+{
+"name" : "build_get_regex",
+"children" : [
+{
+"name" : "document_get_current"}
+]
+},
+{
+"name" : "on_clear_dialog_regex_row"},
+{
+"name" : "ui_label_new_bold",
+"children" : [
+{
+"name" : "ui_label_set_markup"}
+]
+},
+{
+"name" : "ui_label_set_markup"}
+]
+},
+{
+"name" : "document_get_current"}
+]
+},
+{
+"name" : "on_radio_long_line_custom_toggled"},
+{
+"name" : "stash_group_display",
+"children" : [
+{
+"name" : "pref_action",
+"children" : [
+{
+"name" : "get_widget",
+"children" : [
+{
+"name" : "lookup_widget"}
+]
+},
+{
+"name" : "handle_combo_box"},
+{
+"name" : "handle_combo_box_entry",
+"children" : [
+{
+"name" : "handle_entry"}
+]
+},
+{
+"name" : "handle_entry"},
+{
+"name" : "handle_radio_buttons",
+"children" : [
+{
+"name" : "get_widget"},
+{
+"name" : "handle_radio_button"}
+]
+},
+{
+"name" : "handle_spin_button"},
+{
+"name" : "handle_toggle_button"},
+{
+"name" : "handle_widget_property"}
+]
+}
+]
+},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_set_statusbar",
+"children" : [
+{
+"name" : "msgwin_status_add",
+"children" : [
+{
+"name" : "utils_get_current_time_string"}
+]
+},
+{
+"name" : "set_statusbar"}
+]
+},
+{
+"name" : "update_config",
+"children" : [
+{
+"name" : "apply_editor_prefs",
+"children" : [
+{
+"name" : "editor_apply_update_prefs",
+"children" : [
+{
+"name" : "editor_get_long_line_column"},
+{
+"name" : "editor_get_long_line_type"},
+{
+"name" : "editor_set_indent",
+"children" : [
+{
+"name" : "editor_get_indent_prefs",
+"children" : [
+{
+"name" : "get_default_indent_prefs"}
+]
+},
+{
+"name" : "sci_set_tab_width"},
+{
+"name" : "sci_set_use_tabs"},
+{
+"name" : "ui_set_statusbar"}
+]
+},
+{
+"name" : "editor_set_indentation_guides",
+"children" : [
+{
+"name" : "sci_get_lexer"},
+{
+"name" : "sci_set_indentation_guides"}
+]
+},
+{
+"name" : "sci_assign_cmdkey"},
+{
+"name" : "sci_set_autoc_max_height"},
+{
+"name" : "sci_set_folding_margin_visible"},
+{
+"name" : "sci_set_line_numbers",
+"children" : [
+{
+"name" : "sci_text_width"}
+]
+},
+{
+"name" : "sci_set_mark_long_lines",
+"children" : [
+{
+"name" : "utils_strtod",
+"children" : [
+{
+"name" : "utils_get_value_of_hex"}
+]
+}
+]
+},
+{
+"name" : "sci_set_scroll_stop_at_last_line"},
+{
+"name" : "sci_set_scrollbar_mode"},
+{
+"name" : "sci_set_symbol_margin"},
+{
+"name" : "sci_set_tab_indents"},
+{
+"name" : "sci_set_visible_eols"},
+{
+"name" : "sci_set_visible_white_spaces"}
+]
+}
+]
+},
+{
+"name" : "build_menu_update",
+"children" : [
+{
+"name" : "create_build_menu",
+"children" : [
+{
+"name" : "create_build_menu_item",
+"children" : [
+{
+"name" : "add_menu_accel",
+"children" : [
+{
+"name" : "keybindings_get_item"}
+]
+}
+]
+},
+{
+"name" : "get_build_cmd"},
+{
+"name" : "keybindings_get_core_group"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "geany_menu_item_set_label"},
+{
+"name" : "get_build_cmd"},
+{
+"name" : "set_stop_button",
+"children" : [
+{
+"name" : "toolbar_get_widget_by_name"},
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+},
+{
+"name" : "build_read_project",
+"children" : [
+{
+"name" : "build_read_commands",
+"children" : [
+{
+"name" : "read_regex"},
+{
+"name" : "read_row",
+"children" : [
+{
+"name" : "get_build_command_entry_text"},
+{
+"name" : "set_command"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "create_project",
+"children" : [
+{
+"name" : "init_stash_prefs",
+"children" : [
+{
+"name" : "add_stash_group"},
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "stash_group_add_combo_box",
+"children" : [
+{
+"name" : "add_widget_pref",
+"children" : [
+{
+"name" : "add_pref"}
+]
+}
+]
+},
+{
+"name" : "stash_group_add_integer",
+"children" : [
+{
+"name" : "add_pref"}
+]
+},
+{
+"name" : "stash_group_add_radio_buttons",
+"children" : [
+{
+"name" : "add_widget_pref"}
+]
+},
+{
+"name" : "stash_group_add_spin_button_integer",
+"children" : [
+{
+"name" : "add_widget_pref"}
+]
+},
+{
+"name" : "stash_group_add_toggle_button",
+"children" : [
+{
+"name" : "add_widget_pref"}
+]
+},
+{
+"name" : "stash_group_load_from_key_file",
+"children" : [
+{
+"name" : "keyfile_action",
+"children" : [
+{
+"name" : "handle_boolean_setting",
+"children" : [
+{
+"name" : "utils_get_setting_boolean"}
+]
+},
+{
+"name" : "handle_integer_setting",
+"children" : [
+{
+"name" : "utils_get_setting_integer"}
+]
+},
+{
+"name" : "handle_string_setting",
+"children" : [
+{
+"name" : "utils_get_setting_string"}
+]
+},
+{
+"name" : "handle_strv_setting"}
+]
+}
+]
+},
+{
+"name" : "stash_group_new"},
+{
+"name" : "stash_group_set_use_defaults"}
+]
+}
+]
+},
+{
+"name" : "dialogs_show_msgbox"},
+{
+"name" : "dialogs_show_question_full",
+"children" : [
+{
+"name" : "show_prompt",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "stash_group_update",
+"children" : [
+{
+"name" : "pref_action"}
+]
+},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "update_ui",
+"children" : [
+{
+"name" : "build_menu_update"},
+{
+"name" : "sidebar_openfiles_update_all",
+"children" : [
+{
+"name" : "sidebar_openfiles_add",
+"children" : [
+{
+"name" : "document_get_status_color",
+"children" : [
+{
+"name" : "document_get_status_id"}
+]
+},
+{
+"name" : "get_doc_parent",
+"children" : [
+{
+"name" : "find_tree_iter_dir",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "get_doc_folder",
+"children" : [
+{
+"name" : "project_get_base_path",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "utils_filename_has_prefix"}
+]
+},
+{
+"name" : "ui_get_mime_icon"}
+]
+},
+{
+"name" : "ui_get_mime_icon"}
+]
+}
+]
+},
+{
+"name" : "ui_set_window_title",
+"children" : [
+{
+"name" : "document_get_basename_for_display",
+"children" : [
+{
+"name" : "utils_str_middle_truncate"}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "g_string_append_c_inline"}
+]
+}
+]
+},
+{
+"name" : "utils_free_pointers"},
+{
+"name" : "utils_get_locale_from_utf8"},
+{
+"name" : "utils_is_file_writable"},
+{
+"name" : "utils_mkdir"},
+{
+"name" : "utils_string_replace_all",
+"children" : [
+{
+"name" : "utils_string_find",
+"children" : [
+{
+"name" : "utils_strpos"}
+]
+},
+{
+"name" : "utils_string_replace"}
+]
+}
+]
+},
+{
+"name" : "write_config",
+"children" : [
+{
+"name" : "build_save_menu",
+"children" : [
+{
+"name" : "build_save_menu_grp",
+"children" : [
+{
+"name" : "id_to_str"}
+]
+},
+{
+"name" : "foreach_project_filetype",
+"children" : [
+{
+"name" : "build_save_menu_grp"}
+]
+}
+]
+},
+{
+"name" : "configuration_save_session_files",
+"children" : [
+{
+"name" : "document_get_from_page",
+"children" : [
+{
+"name" : "document_find_by_sci"}
+]
+},
+{
+"name" : "get_session_file_string",
+"children" : [
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "vte_get_working_directory",
+"children" : [
+{
+"name" : "geany_debug"}
+]
+}
+]
+},
+{
+"name" : "stash_group_save_to_key_file",
+"children" : [
+{
+"name" : "keyfile_action"}
+]
+},
+{
+"name" : "utils_get_locale_from_utf8"},
+{
+"name" : "utils_write_file",
+"children" : [
+{
+"name" : "geany_debug"}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "show_build_commands_dialog",
+"children" : [
+{
+"name" : "build_commands_table"},
+{
+"name" : "build_free_fields"},
+{
+"name" : "build_menu_update"},
+{
+"name" : "build_read_commands"},
+{
+"name" : "document_get_current"},
+{
+"name" : "filetypes_save_commands",
+"children" : [
+{
+"name" : "build_save_menu"},
+{
+"name" : "filetypes_get_filename",
+"children" : [
+{
+"name" : "filetypes_get_conf_extension"}
+]
+},
+{
+"name" : "utils_write_file"}
+]
+},
+{
+"name" : "ui_dialog_vbox_new"}
+]
+}
+]
+},
+{
+"name" : "on_toolbutton_build_activate",
+"children" : [
+{
+"name" : "on_build_menu_item",
+"children" : [
+{
+"name" : "build_command",
+"children" : [
+{
+"name" : "build_menu_update"},
+{
+"name" : "build_replace_placeholder",
+"children" : [
+{
+"name" : "project_get_base_path"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_get_utf8_from_locale"},
+{
+"name" : "utils_remove_ext_from_filename"},
+{
+"name" : "utils_string_replace_all"}
+]
+},
+{
+"name" : "build_spawn_cmd",
+"children" : [
+{
+"name" : "build_exit_cb",
+"children" : [
+{
+"name" : "build_menu_update"},
+{
+"name" : "show_build_result_message",
+"children" : [
+{
+"name" : "msgwin_compiler_add_string",
+"children" : [
+{
+"name" : "build_get_menu_items",
+"children" : [
+{
+"name" : "create_build_menu"}
+]
+},
+{
+"name" : "get_color"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+},
+{
+"name" : "msgwin_show_hide",
+"children" : [
+{
+"name" : "keybindings_send_command",
+"children" : [
+{
+"name" : "keybindings_get_core_group"},
+{
+"name" : "keybindings_lookup_item",
+"children" : [
+{
+"name" : "keybindings_get_core_group"},
+{
+"name" : "keybindings_get_item"}
+]
+}
+]
+},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_widget_show_hide"}
+]
+},
+{
+"name" : "ui_set_statusbar"}
+]
+},
+{
+"name" : "ui_progress_bar_stop"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "build_iofunc",
+"children" : [
+{
+"name" : "process_build_output_line",
+"children" : [
+{
+"name" : "build_parse_make_dir"},
+{
+"name" : "document_find_by_filename",
+"children" : [
+{
+"name" : "document_find_by_real_path"},
+{
+"name" : "get_real_path_from_utf8",
+"children" : [
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+}
+]
+},
+{
+"name" : "editor_indicator_set_on_line",
+"children" : [
+{
+"name" : "editor_indicator_set_on_range",
+"children" : [
+{
+"name" : "sci_indicator_fill"},
+{
+"name" : "sci_indicator_set"}
+]
+},
+{
+"name" : "sci_get_line",
+"children" : [
+{
+"name" : "sci_get_string"}
+]
+},
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_position_from_line"}
+]
+},
+{
+"name" : "msgwin_compiler_add_string"},
+{
+"name" : "msgwin_parse_compiler_error_line",
+"children" : [
+{
+"name" : "filetypes_parse_error_message",
+"children" : [
+{
+"name" : "build_get_regex"},
+{
+"name" : "compile_regex",
+"children" : [
+{
+"name" : "filetypes_get_display_name"},
+{
+"name" : "geany_debug"},
+{
+"name" : "ui_set_statusbar"}
+]
+},
+{
+"name" : "document_get_current"}
+]
+},
+{
+"name" : "make_absolute",
+"children" : [
+{
+"name" : "utils_is_absolute_path"}
+]
+},
+{
+"name" : "parse_compiler_error_line",
+"children" : [
+{
+"name" : "parse_file_line",
+"children" : [
+{
+"name" : "document_get_current"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "build_menu_update"},
+{
+"name" : "clear_all_errors",
+"children" : [
+{
+"name" : "editor_indicator_clear_errors",
+"children" : [
+{
+"name" : "editor_indicator_clear",
+"children" : [
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_indicator_clear"},
+{
+"name" : "sci_indicator_set"}
+]
+},
+{
+"name" : "sci_marker_delete_all"}
+]
+}
+]
+},
+{
+"name" : "geany_debug"},
+{
+"name" : "msgwin_compiler_add",
+"children" : [
+{
+"name" : "msgwin_compiler_add_string"}
+]
+},
+{
+"name" : "ui_progress_bar_start",
+"children" : [
+{
+"name" : "progress_bar_pulse"}
+]
+},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_get_locale_from_utf8"},
+{
+"name" : "utils_get_utf8_from_locale"},
+{
+"name" : "utils_set_up_io_channel"}
+]
+},
+{
+"name" : "get_build_cmd"}
+]
+},
+{
+"name" : "build_run_cmd",
+"children" : [
+{
+"name" : "build_menu_update"},
+{
+"name" : "geany_debug"},
+{
+"name" : "msgwin_show_hide"},
+{
+"name" : "prepare_run_script",
+"children" : [
+{
+"name" : "build_create_shellscript",
+"children" : [
+{
+"name" : "set_file_error_from_errno"}
+]
+},
+{
+"name" : "build_replace_placeholder"},
+{
+"name" : "get_build_cmd"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_free_pointers"}
+]
+},
+{
+"name" : "run_exit_cb",
+"children" : [
+{
+"name" : "build_menu_update"}
+]
+},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_get_locale_from_utf8"},
+{
+"name" : "utils_get_utf8_from_locale"},
+{
+"name" : "utils_str_replace_all",
+"children" : [
+{
+"name" : "utils_string_replace_all"}
+]
+},
+{
+"name" : "vte_cwd",
+"children" : [
+{
+"name" : "geany_debug"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_str_equal"},
+{
+"name" : "vte_get_working_directory"},
+{
+"name" : "vte_send_cmd"}
+]
+},
+{
+"name" : "vte_send_cmd"}
+]
+},
+{
+"name" : "dialogs_show_input_persistent",
+"children" : [
+{
+"name" : "dialogs_show_input_full"}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "document_save_file",
+"children" : [
+{
+"name" : "dialogs_show_msgbox_with_secondary",
+"children" : [
+{
+"name" : "show_msgbox_dialog"}
+]
+},
+{
+"name" : "dialogs_show_save_as",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "show_save_as_gtk",
+"children" : [
+{
+"name" : "create_save_file_dialog",
+"children" : [
+{
+"name" : "utils_get_default_dir_utf8"},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "save_as_dialog_handle_response",
+"children" : [
+{
+"name" : "dialogs_show_question_full"},
+{
+"name" : "handle_save_as",
+"children" : [
+{
+"name" : "build_menu_update"},
+{
+"name" : "document_get_current"},
+{
+"name" : "document_rename_file",
+"children" : [
+{
+"name" : "dialogs_show_msgbox_with_secondary"},
+{
+"name" : "document_stop_file_monitoring"},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "document_save_file_as",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "document_save_file"},
+{
+"name" : "document_set_filetype",
+"children" : [
+{
+"name" : "document_apply_indent_settings",
+"children" : [
+{
+"name" : "detect_indent_width",
+"children" : [
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_line_count"},
+{
+"name" : "sci_get_line_indent_position"},
+{
+"name" : "sci_get_line_indentation"},
+{
+"name" : "sci_set_tab_width"}
+]
+},
+{
+"name" : "document_detect_indent_type",
+"children" : [
+{
+"name" : "detect_tabs_and_spaces",
+"children" : [
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "sci_find_text"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_get_line_count"}
+]
+},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_line_count"},
+{
+"name" : "sci_get_line_indentation"},
+{
+"name" : "sci_get_position_from_line"}
+]
+},
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "editor_set_indent"},
+{
+"name" : "ui_set_statusbar"}
+]
+},
+{
+"name" : "document_load_config",
+"children" : [
+{
+"name" : "build_menu_update"},
+{
+"name" : "document_update_tags",
+"children" : [
+{
+"name" : "document_highlight_tags",
+"children" : [
+{
+"name" : "queue_colourise"},
+{
+"name" : "sci_set_keywords"},
+{
+"name" : "symbols_find_tags_as_string",
+"children" : [
+{
+"name" : "g_string_append_c_inline"}
+]
+}
+]
+},
+{
+"name" : "filetype_has_tags"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sidebar_update_tag_list",
+"children" : [
+{
+"name" : "create_default_tag_tree",
+"children" : [
+{
+"name" : "on_default_tag_tree_button_press_event"}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "filetype_has_tags"},
+{
+"name" : "prepare_taglist",
+"children" : [
+{
+"name" : "sidebar_button_press_cb",
+"children" : [
+{
+"name" : "create_openfiles_popup_menu",
+"children" : [
+{
+"name" : "on_find_in_files",
+"children" : [
+{
+"name" : "search_show_find_in_files_dialog",
+"children" : [
+{
+"name" : "search_show_find_in_files_dialog_full",
+"children" : [
+{
+"name" : "create_fif_dialog",
+"children" : [
+{
+"name" : "create_fif_file_mode_combo"},
+{
+"name" : "encodings_to_string"},
+{
+"name" : "on_find_in_files_dialog_response",
+"children" : [
+{
+"name" : "encodings_get_charset_from_index"},
+{
+"name" : "get_grep_options",
+"children" : [
+{
+"name" : "g_string_append_c_inline"},
+{
+"name" : "utils_string_replace_all"}
+]
+},
+{
+"name" : "search_find_in_files",
+"children" : [
+{
+"name" : "geany_debug"},
+{
+"name" : "msgwin_msg_add_string",
+"children" : [
+{
+"name" : "get_color"},
+{
+"name" : "msgwin_show_hide"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+},
+{
+"name" : "msgwin_set_messages_dir"},
+{
+"name" : "search_close_pid",
+"children" : [
+{
+"name" : "msgwin_msg_add",
+"children" : [
+{
+"name" : "msgwin_msg_add_string"}
+]
+},
+{
+"name" : "msgwin_msg_add_string"},
+{
+"name" : "ui_progress_bar_stop"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "search_get_argv",
+"children" : [
+{
+"name" : "pattern_list_match"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_get_file_list",
+"children" : [
+{
+"name" : "utils_get_file_list_full",
+"children" : [
+{
+"name" : "utils_str_casecmp",
+"children" : [
+{
+"name" : "utf8_strdown"}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "search_read_io",
+"children" : [
+{
+"name" : "read_fif_io",
+"children" : [
+{
+"name" : "msgwin_msg_add_string"}
+]
+}
+]
+},
+{
+"name" : "search_read_io_stderr",
+"children" : [
+{
+"name" : "read_fif_io"}
+]
+},
+{
+"name" : "ui_progress_bar_start"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_free_pointers"},
+{
+"name" : "utils_get_utf8_from_locale"},
+{
+"name" : "utils_set_up_io_channel"}
+]
+},
+{
+"name" : "stash_group_update"},
+{
+"name" : "ui_combo_box_add_to_history"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "on_widget_key_pressed_set_focus"},
+{
+"name" : "on_widget_toggled_set_sensitive"},
+{
+"name" : "ui_dialog_vbox_new"},
+{
+"name" : "ui_entry_add_clear_icon"},
+{
+"name" : "ui_path_box_new",
+"children" : [
+{
+"name" : "ui_setup_open_button_callback",
+"children" : [
+{
+"name" : "ui_path_box_open_clicked",
+"children" : [
+{
+"name" : "run_file_chooser",
+"children" : [
+{
+"name" : "utils_get_locale_from_utf8"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "update_file_patterns"}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_get_default_selection",
+"children" : [
+{
+"name" : "editor_find_current_word",
+"children" : [
+{
+"name" : "read_current_word",
+"children" : [
+{
+"name" : "editor_find_current_word"},
+{
+"name" : "editor_find_current_word_sciwc",
+"children" : [
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_get_text_range"},
+{
+"name" : "sci_word_end_position"},
+{
+"name" : "sci_word_start_position"}
+]
+},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_get_line"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_position_from_line"}
+]
+}
+]
+},
+{
+"name" : "editor_find_current_word_sciwc"},
+{
+"name" : "sci_get_lines_selected"},
+{
+"name" : "sci_get_selection_contents",
+"children" : [
+{
+"name" : "sci_get_string"}
+]
+}
+]
+},
+{
+"name" : "encodings_get_idx_from_charset",
+"children" : [
+{
+"name" : "encodings_charset_equals"}
+]
+},
+{
+"name" : "set_dialog_position"},
+{
+"name" : "stash_group_display"},
+{
+"name" : "ui_combo_box_add_to_history"},
+{
+"name" : "ui_combo_box_prepend_text_once",
+"children" : [
+{
+"name" : "tree_model_find_text"}
+]
+},
+{
+"name" : "update_fif_file_mode_combo"},
+{
+"name" : "update_file_patterns"},
+{
+"name" : "utils_get_current_file_dir_utf8",
+"children" : [
+{
+"name" : "document_get_current"}
+]
+},
+{
+"name" : "utils_get_default_dir_utf8"},
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "on_openfiles_document_action",
+"children" : [
+{
+"name" : "document_action",
+"children" : [
+{
+"name" : "document_close",
+"children" : [
+{
+"name" : "document_get_notebook_page"},
+{
+"name" : "document_remove_page",
+"children" : [
+{
+"name" : "document_new_file_if_non_open",
+"children" : [
+{
+"name" : "document_new_file",
+"children" : [
+{
+"name" : "build_menu_update"},
+{
+"name" : "document_create",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "document_get_new_idx"},
+{
+"name" : "editor_create",
+"children" : [
+{
+"name" : "editor_create_widget",
+"children" : [
+{
+"name" : "create_new_sci",
+"children" : [
+{
+"name" : "on_editor_button_press_event",
+"children" : [
+{
+"name" : "document_check_disk_status",
+"children" : [
+{
+"name" : "monitor_reload_file",
+"children" : [
+{
+"name" : "dialogs_show_prompt",
+"children" : [
+{
+"name" : "show_prompt"}
+]
+},
+{
+"name" : "document_close"},
+{
+"name" : "document_reload_file",
+"children" : [
+{
+"name" : "document_open_file_full",
+"children" : [
+{
+"name" : "document_apply_indent_settings"},
+{
+"name" : "document_check_disk_status"},
+{
+"name" : "document_create"},
+{
+"name" : "document_find_by_filename"},
+{
+"name" : "document_set_filetype"},
+{
+"name" : "document_set_text_changed",
+"children" : [
+{
+"name" : "ui_save_buttons_toggle",
+"children" : [
+{
+"name" : "ui_widget_set_sensitive"}
+]
+},
+{
+"name" : "ui_set_window_title"},
+{
+"name" : "ui_update_statusbar",
+"children" : [
+{
+"name" : "create_statusbar_statistics",
+"children" : [
+{
+"name" : "editor_get_eol_char_name",
+"children" : [
+{
+"name" : "sci_get_eol_mode"},
+{
+"name" : "utils_get_eol_name"}
+]
+},
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "encodings_is_unicode_charset"},
+{
+"name" : "filetypes_get_display_name"},
+{
+"name" : "g_string_append_c_inline"},
+{
+"name" : "sci_get_col_from_position"},
+{
+"name" : "sci_get_line_count"},
+{
+"name" : "sci_get_lines_selected"},
+{
+"name" : "sci_get_overtype"},
+{
+"name" : "sci_get_selected_text_length"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_get_style_at"},
+{
+"name" : "symbols_get_current_scope",
+"children" : [
+{
+"name" : "get_current_tag_name_cached",
+"children" : [
+{
+"name" : "current_tag_changed"},
+{
+"name" : "get_current_tag_name",
+"children" : [
+{
+"name" : "get_fold_header_after",
+"children" : [
+{
+"name" : "sci_get_fold_level"},
+{
+"name" : "sci_get_line_count"}
+]
+},
+{
+"name" : "get_function_fold_number"},
+{
+"name" : "parse_cpp_function_at_line",
+"children" : [
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_contents_range",
+"children" : [
+{
+"name" : "sci_get_text_range"}
+]
+},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_style_at"}
+]
+},
+{
+"name" : "parse_function_at_line",
+"children" : [
+{
+"name" : "sci_get_contents_range"},
+{
+"name" : "sci_get_lexer"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_style_at"}
+]
+},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_get_fold_level"},
+{
+"name" : "sci_get_fold_parent"},
+{
+"name" : "sci_get_lexer"},
+{
+"name" : "symbols_get_context_separator"}
+]
+},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_get_fold_level"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "sci_get_col_from_position"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "set_statusbar"}
+]
+},
+{
+"name" : "ui_update_tab_status",
+"children" : [
+{
+"name" : "document_get_status_widget_class",
+"children" : [
+{
+"name" : "document_get_status_id"}
+]
+},
+{
+"name" : "sidebar_openfiles_update",
+"children" : [
+{
+"name" : "document_get_status_color"},
+{
+"name" : "openfiles_remove"},
+{
+"name" : "sidebar_openfiles_add"},
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "document_show_tab",
+"children" : [
+{
+"name" : "document_get_notebook_page"}
+]
+},
+{
+"name" : "document_undo_clear",
+"children" : [
+{
+"name" : "document_set_text_changed"},
+{
+"name" : "g_trash_stack_height"},
+{
+"name" : "g_trash_stack_pop"}
+]
+},
+{
+"name" : "editor_goto_pos",
+"children" : [
+{
+"name" : "document_show_tab"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_goto_pos"},
+{
+"name" : "sci_marker_delete_all"},
+{
+"name" : "sci_set_marker_at_line"}
+]
+},
+{
+"name" : "editor_sci_notify_cb"},
+{
+"name" : "editor_set_indent"},
+{
+"name" : "filetypes_detect_from_document",
+"children" : [
+{
+"name" : "filetypes_detect_from_file_internal",
+"children" : [
+{
+"name" : "filetypes_detect_from_extension",
+"children" : [
+{
+"name" : "check_builtin_filenames",
+"children" : [
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "filetypes_find"},
+{
+"name" : "match_basename"}
+]
+},
+{
+"name" : "filetypes_lookup_by_name",
+"children" : [
+{
+"name" : "geany_debug"}
+]
+},
+{
+"name" : "find_shebang",
+"children" : [
+{
+"name" : "shebang_find_and_match_filetype",
+"children" : [
+{
+"name" : "filetypes_detect_from_extension"}
+]
+}
+]
+},
+{
+"name" : "geany_debug"}
+]
+},
+{
+"name" : "sci_get_line"}
+]
+},
+{
+"name" : "load_text_file",
+"children" : [
+{
+"name" : "dialogs_show_msgbox"},
+{
+"name" : "encodings_convert_to_utf8_auto",
+"children" : [
+{
+"name" : "handle_buffer",
+"children" : [
+{
+"name" : "encodings_scan_unicode_bom"},
+{
+"name" : "handle_bom",
+"children" : [
+{
+"name" : "encodings_scan_unicode_bom"}
+]
+},
+{
+"name" : "handle_encoding",
+"children" : [
+{
+"name" : "encodings_check_regexes",
+"children" : [
+{
+"name" : "regex_match",
+"children" : [
+{
+"name" : "geany_debug"}
+]
+}
+]
+},
+{
+"name" : "encodings_convert_to_utf8_from_charset",
+"children" : [
+{
+"name" : "geany_debug"}
+]
+},
+{
+"name" : "encodings_convert_to_utf8_with_suggestion",
+"children" : [
+{
+"name" : "encodings_convert_to_utf8_from_charset"},
+{
+"name" : "encodings_normalize_charset",
+"children" : [
+{
+"name" : "encodings_get_from_charset",
+"children" : [
+{
+"name" : "encodings_charset_equals"}
+]
+}
+]
+},
+{
+"name" : "geany_debug"}
+]
+},
+{
+"name" : "encodings_get_idx_from_charset"}
+]
+},
+{
+"name" : "handle_forced_encoding",
+"children" : [
+{
+"name" : "encodings_convert_to_utf8_from_charset"},
+{
+"name" : "encodings_scan_unicode_bom"},
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+},
+{
+"name" : "ui_set_statusbar"}
+]
+},
+{
+"name" : "monitor_file_setup"},
+{
+"name" : "msgwin_status_add"},
+{
+"name" : "on_idle_focus",
+"children" : [
+{
+"name" : "document_try_focus"}
+]
+},
+{
+"name" : "queue_colourise"},
+{
+"name" : "sci_empty_undo_buffer"},
+{
+"name" : "sci_get_line_count"},
+{
+"name" : "sci_set_eol_mode"},
+{
+"name" : "sci_set_line_numbers"},
+{
+"name" : "sci_set_readonly"},
+{
+"name" : "sci_set_text"},
+{
+"name" : "sci_set_undo_collection"},
+{
+"name" : "set_cursor_position",
+"children" : [
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_goto_line"},
+{
+"name" : "sci_set_current_position"}
+]
+},
+{
+"name" : "store_saved_encoding"},
+{
+"name" : "ui_add_recent_document",
+"children" : [
+{
+"name" : "add_recent_file",
+"children" : [
+{
+"name" : "recent_file_loaded",
+"children" : [
+{
+"name" : "find_recent_file_item",
+"children" : [
+{
+"name" : "ui_menu_item_get_text"},
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+},
+{
+"name" : "update_recent_menu"}
+]
+},
+{
+"name" : "recent_get_recent_files",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_menu",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_type"}
+]
+},
+{
+"name" : "geany_menu_button_action_get_type"},
+{
+"name" : "recent_file_activate_cb",
+"children" : [
+{
+"name" : "document_open_file",
+"children" : [
+{
+"name" : "document_open_file_full"}
+]
+},
+{
+"name" : "recent_file_loaded"},
+{
+"name" : "recent_get_recent_files"},
+{
+"name" : "ui_menu_item_get_text"},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "toolbar_get_action_by_name"}
+]
+}
+]
+},
+{
+"name" : "ui_document_show_hide",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "encodings_is_unicode_charset"},
+{
+"name" : "encodings_select_radio_item",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "filetypes_select_radio_item"},
+{
+"name" : "sci_get_eol_mode"},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_widget_set_sensitive"}
+]
+},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_get_line_endings"},
+{
+"name" : "utils_get_locale_from_utf8"},
+{
+"name" : "utils_get_utf8_from_locale"},
+{
+"name" : "utils_is_remote_path",
+"children" : [
+{
+"name" : "utils_is_uri"}
+]
+},
+{
+"name" : "utils_str_middle_truncate"},
+{
+"name" : "utils_tidy_path",
+"children" : [
+{
+"name" : "utils_string_replace_all"}
+]
+}
+]
+},
+{
+"name" : "sci_get_current_position"}
+]
+}
+]
+},
+{
+"name" : "monitor_resave_missing_file",
+"children" : [
+{
+"name" : "dialogs_show_prompt"},
+{
+"name" : "dialogs_show_save_as"},
+{
+"name" : "document_close"},
+{
+"name" : "document_set_text_changed"}
+]
+},
+{
+"name" : "notebook_switch_in_progress"},
+{
+"name" : "ui_update_tab_status"},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "editor_find_current_word"},
+{
+"name" : "keybindings_send_command"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_get_position_from_xy"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "sci_set_current_position"},
+{
+"name" : "sci_set_selection_end"},
+{
+"name" : "symbols_goto_tag",
+"children" : [
+{
+"name" : "goto_tag",
+"children" : [
+{
+"name" : "document_find_by_real_path"},
+{
+"name" : "document_get_current"},
+{
+"name" : "document_open_file"},
+{
+"name" : "find_work_object_tag",
+"children" : [
+{
+"name" : "symbols_find_tm_tag",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+},
+{
+"name" : "find_workspace_tag",
+"children" : [
+{
+"name" : "find_work_object_tag"}
+]
+},
+{
+"name" : "get_current_word_or_sel",
+"children" : [
+{
+"name" : "read_current_word"},
+{
+"name" : "sci_get_selection_contents"},
+{
+"name" : "sci_has_selection"}
+]
+},
+{
+"name" : "goto_tag"},
+{
+"name" : "keybindings_send_command"},
+{
+"name" : "navqueue_goto_line",
+"children" : [
+{
+"name" : "add_new_position",
+"children" : [
+{
+"name" : "adjust_buttons"},
+{
+"name" : "queue_pos_matches",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+},
+{
+"name" : "editor_goto_pos"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_get_position_from_line"}
+]
+},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "sci_set_current_position"},
+{
+"name" : "symbols_goto_tag"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "ui_update_insert_include_item",
+"children" : [
+{
+"name" : "ui_widget_set_sensitive"}
+]
+},
+{
+"name" : "ui_update_popup_copy_items",
+"children" : [
+{
+"name" : "sci_has_selection"},
+{
+"name" : "ui_widget_set_sensitive"}
+]
+},
+{
+"name" : "ui_update_popup_goto_items",
+"children" : [
+{
+"name" : "ui_widget_set_sensitive"}
+]
+}
+]
+},
+{
+"name" : "on_editor_expose_event",
+"children" : [
+{
+"name" : "editor_check_colourise",
+"children" : [
+{
+"name" : "sci_colourise"},
+{
+"name" : "symbols_get_current_function",
+"children" : [
+{
+"name" : "get_current_tag_name_cached"}
+]
+},
+{
+"name" : "ui_update_statusbar"}
+]
+}
+]
+},
+{
+"name" : "on_editor_focus_in",
+"children" : [
+{
+"name" : "editor_check_colourise"}
+]
+},
+{
+"name" : "on_editor_scroll_event",
+"children" : [
+{
+"name" : "sci_scroll_columns"},
+{
+"name" : "sci_send_command"}
+]
+},
+{
+"name" : "on_motion_event"},
+{
+"name" : "register_named_icon"},
+{
+"name" : "sci_set_caret_policy_x"},
+{
+"name" : "sci_set_codepage"},
+{
+"name" : "sci_set_lines_wrapped"},
+{
+"name" : "sci_set_symbol_margin"},
+{
+"name" : "sci_use_popup"},
+{
+"name" : "setup_sci_keys",
+"children" : [
+{
+"name" : "sci_assign_cmdkey"},
+{
+"name" : "sci_clear_cmdkey"}
+]
+}
+]
+},
+{
+"name" : "editor_apply_update_prefs"},
+{
+"name" : "editor_set_font",
+"children" : [
+{
+"name" : "sci_set_font"},
+{
+"name" : "sci_zoom_off"}
+]
+},
+{
+"name" : "editor_set_indent"},
+{
+"name" : "get_default_indent_prefs"}
+]
+},
+{
+"name" : "get_default_indent_prefs"}
+]
+},
+{
+"name" : "notebook_new_tab",
+"children" : [
+{
+"name" : "document_update_tab_label",
+"children" : [
+{
+"name" : "document_get_basename_for_display"}
+]
+},
+{
+"name" : "focus_sci",
+"children" : [
+{
+"name" : "document_get_current"}
+]
+},
+{
+"name" : "notebook_tab_click",
+"children" : [
+{
+"name" : "document_remove_page"},
+{
+"name" : "keybindings_send_command"},
+{
+"name" : "on_menu_toggle_all_additional_widgets1_activate",
+"children" : [
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_statusbar_showhide",
+"children" : [
+{
+"name" : "ui_update_statusbar"}
+]
+}
+]
+},
+{
+"name" : "show_tab_bar_popup_menu",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "document_get_from_page"},
+{
+"name" : "notebook_tab_close_clicked_cb",
+"children" : [
+{
+"name" : "document_remove_page"}
+]
+},
+{
+"name" : "on_close_all1_activate",
+"children" : [
+{
+"name" : "document_close_all",
+"children" : [
+{
+"name" : "document_account_for_unsaved",
+"children" : [
+{
+"name" : "dialogs_show_unsaved_file",
+"children" : [
+{
+"name" : "document_get_basename_for_display"},
+{
+"name" : "document_save_file"},
+{
+"name" : "document_show_tab"},
+{
+"name" : "run_unsaved_dialog",
+"children" : [
+{
+"name" : "ui_button_new_with_image"}
+]
+}
+]
+},
+{
+"name" : "document_get_from_page"}
+]
+},
+{
+"name" : "force_close_all",
+"children" : [
+{
+"name" : "document_close"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "on_close_other_documents1_activate",
+"children" : [
+{
+"name" : "document_close"},
+{
+"name" : "document_get_current"},
+{
+"name" : "document_get_from_page"}
+]
+},
+{
+"name" : "on_open_in_new_window_activate",
+"children" : [
+{
+"name" : "utils_get_locale_from_utf8"},
+{
+"name" : "utils_spawn_async"}
+]
+},
+{
+"name" : "tab_bar_menu_activate_cb",
+"children" : [
+{
+"name" : "document_show_tab"}
+]
+},
+{
+"name" : "ui_image_menu_item_new"},
+{
+"name" : "ui_menu_add_document_items",
+"children" : [
+{
+"name" : "ui_menu_add_document_items_sorted",
+"children" : [
+{
+"name" : "document_compare_by_tab_order",
+"children" : [
+{
+"name" : "document_get_notebook_page"}
+]
+},
+{
+"name" : "document_get_status_widget_class"},
+{
+"name" : "ui_label_set_markup"}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "notebook_tab_close_button_style_set"},
+{
+"name" : "notebook_tab_close_clicked_cb"},
+{
+"name" : "tab_count_changed"}
+]
+},
+{
+"name" : "remove_page",
+"children" : [
+{
+"name" : "build_menu_update"},
+{
+"name" : "dialogs_show_unsaved_file"},
+{
+"name" : "document_get_from_page"},
+{
+"name" : "document_stop_file_monitoring"},
+{
+"name" : "document_undo_clear"},
+{
+"name" : "editor_destroy"},
+{
+"name" : "msgwin_status_add"},
+{
+"name" : "navqueue_remove_file",
+"children" : [
+{
+"name" : "adjust_buttons"},
+{
+"name" : "find_by_filename",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+},
+{
+"name" : "notebook_remove_page",
+"children" : [
+{
+"name" : "document_get_notebook_page"},
+{
+"name" : "tab_count_changed"}
+]
+},
+{
+"name" : "sidebar_remove_document",
+"children" : [
+{
+"name" : "openfiles_remove"}
+]
+},
+{
+"name" : "sidebar_update_tag_list"},
+{
+"name" : "ui_add_recent_document"},
+{
+"name" : "ui_document_buttons_update",
+"children" : [
+{
+"name" : "ui_widget_set_sensitive"}
+]
+},
+{
+"name" : "ui_save_buttons_toggle"},
+{
+"name" : "ui_set_window_title"},
+{
+"name" : "ui_update_popup_reundo_items",
+"children" : [
+{
+"name" : "document_can_redo",
+"children" : [
+{
+"name" : "g_trash_stack_height"},
+{
+"name" : "sci_can_redo"}
+]
+},
+{
+"name" : "document_can_undo",
+"children" : [
+{
+"name" : "g_trash_stack_height"},
+{
+"name" : "sci_can_undo"}
+]
+},
+{
+"name" : "ui_widget_set_sensitive"}
+]
+}
+]
+},
+{
+"name" : "sidebar_openfiles_add"},
+{
+"name" : "ui_document_buttons_update"}
+]
+},
+{
+"name" : "document_set_filetype"},
+{
+"name" : "document_set_text_changed"},
+{
+"name" : "document_try_focus"},
+{
+"name" : "editor_goto_pos"},
+{
+"name" : "editor_sci_notify_cb"},
+{
+"name" : "filetypes_detect_from_document"},
+{
+"name" : "msgwin_status_add"},
+{
+"name" : "sci_clear_all"},
+{
+"name" : "sci_empty_undo_buffer"},
+{
+"name" : "sci_set_eol_mode"},
+{
+"name" : "sci_set_line_numbers"},
+{
+"name" : "sci_set_text"},
+{
+"name" : "sci_set_undo_collection"},
+{
+"name" : "store_saved_encoding"},
+{
+"name" : "ui_document_show_hide"},
+{
+"name" : "ui_set_window_title"},
+{
+"name" : "utils_ensure_same_eol_characters",
+"children" : [
+{
+"name" : "utils_get_eol_char"},
+{
+"name" : "utils_string_replace_all"}
+]
+},
+{
+"name" : "utils_tidy_path"}
+]
+}
+]
+},
+{
+"name" : "remove_page"}
+]
+}
+]
+},
+{
+"name" : "document_save_file"},
+{
+"name" : "on_toolbutton_reload_clicked",
+"children" : [
+{
+"name" : "on_reload_as_activate",
+"children" : [
+{
+"name" : "dialogs_show_question_full"},
+{
+"name" : "document_can_redo"},
+{
+"name" : "document_can_undo"},
+{
+"name" : "document_get_current"},
+{
+"name" : "document_reload_file"},
+{
+"name" : "ui_update_statusbar"}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "on_openfiles_expand_collapse"},
+{
+"name" : "on_openfiles_show_paths_activate",
+"children" : [
+{
+"name" : "sidebar_openfiles_update_all"}
+]
+},
+{
+"name" : "sidebar_add_common_menu_items",
+"children" : [
+{
+"name" : "on_hide_sidebar",
+"children" : [
+{
+"name" : "ui_sidebar_show_hide",
+"children" : [
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_widget_show_hide"}
+]
+}
+]
+},
+{
+"name" : "on_list_document_activate",
+"children" : [
+{
+"name" : "sidebar_tabs_show_hide"},
+{
+"name" : "ui_sidebar_show_hide"}
+]
+},
+{
+"name" : "on_list_symbol_activate",
+"children" : [
+{
+"name" : "sidebar_tabs_show_hide"},
+{
+"name" : "ui_sidebar_show_hide"}
+]
+},
+{
+"name" : "on_sidebar_display_open_files_show"},
+{
+"name" : "on_sidebar_display_symbol_list_show"}
+]
+},
+{
+"name" : "ui_image_menu_item_new"}
+]
+},
+{
+"name" : "documents_menu_update"},
+{
+"name" : "openfiles_go_to_selection",
+"children" : [
+{
+"name" : "change_focus_to_editor",
+"children" : [
+{
+"name" : "document_try_focus"}
+]
+},
+{
+"name" : "document_show_tab"}
+]
+},
+{
+"name" : "taglist_go_to_selection",
+"children" : [
+{
+"name" : "change_focus_to_editor"},
+{
+"name" : "document_get_current"},
+{
+"name" : "navqueue_goto_line"}
+]
+}
+]
+},
+{
+"name" : "sidebar_key_press_cb",
+"children" : [
+{
+"name" : "openfiles_go_to_selection"},
+{
+"name" : "taglist_go_to_selection"},
+{
+"name" : "ui_is_keyval_enter_or_return"}
+]
+},
+{
+"name" : "ui_widget_modify_font_from_string"}
+]
+},
+{
+"name" : "symbols_recreate_tag_list",
+"children" : [
+{
+"name" : "add_top_level_items",
+"children" : [
+{
+"name" : "init_tag_iters"},
+{
+"name" : "tag_list_add_groups",
+"children" : [
+{
+"name" : "find_toplevel_iter",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "get_tag_icon"}
+]
+}
+]
+},
+{
+"name" : "get_tag_list",
+"children" : [
+{
+"name" : "compare_symbol_lines"}
+]
+},
+{
+"name" : "hide_empty_rows"},
+{
+"name" : "sort_tree",
+"children" : [
+{
+"name" : "tree_sort_func",
+"children" : [
+{
+"name" : "compare_symbol"},
+{
+"name" : "compare_symbol_lines"},
+{
+"name" : "compare_top_level_names",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "tag_has_missing_parent"},
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+},
+{
+"name" : "update_tree_tags",
+"children" : [
+{
+"name" : "free_iter_slice_list"},
+{
+"name" : "geany_debug"},
+{
+"name" : "get_child_icon",
+"children" : [
+{
+"name" : "get_tag_icon"}
+]
+},
+{
+"name" : "get_parent_name",
+"children" : [
+{
+"name" : "symbols_get_context_separator"}
+]
+},
+{
+"name" : "get_symbol_name",
+"children" : [
+{
+"name" : "encodings_convert_to_utf8_from_charset"},
+{
+"name" : "symbols_get_context_separator"},
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "get_symbol_tooltip",
+"children" : [
+{
+"name" : "editor_get_calltip_text",
+"children" : [
+{
+"name" : "append_calltip",
+"children" : [
+{
+"name" : "g_string_append_c_inline"},
+{
+"name" : "symbols_get_context_separator"}
+]
+}
+]
+},
+{
+"name" : "encodings_convert_to_utf8_from_charset"},
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "get_tag_type_iter"},
+{
+"name" : "next_iter"},
+{
+"name" : "tag_equal",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "tag_hash"},
+{
+"name" : "tags_table_destroy"},
+{
+"name" : "tags_table_insert"},
+{
+"name" : "tags_table_lookup"},
+{
+"name" : "tags_table_remove"},
+{
+"name" : "tree_store_remove_row",
+"children" : [
+{
+"name" : "next_iter"}
+]
+},
+{
+"name" : "tree_view_expand_to_iter"},
+{
+"name" : "update_parents_table",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "editor_set_indentation_guides"},
+{
+"name" : "highlighting_set_styles",
+"children" : [
+{
+"name" : "filetypes_load_config",
+"children" : [
+{
+"name" : "copy_ft_groups",
+"children" : [
+{
+"name" : "add_group_keys",
+"children" : [
+{
+"name" : "copy_keys"},
+{
+"name" : "filetypes_get_filename"},
+{
+"name" : "geany_debug"}
+]
+},
+{
+"name" : "copy_keys"},
+{
+"name" : "filetypes_lookup_by_name"}
+]
+},
+{
+"name" : "filetypes_get_filename"},
+{
+"name" : "highlighting_init_styles",
+"children" : [
+{
+"name" : "filetypes_load_config"},
+{
+"name" : "free_styleset"},
+{
+"name" : "geany_debug"},
+{
+"name" : "get_keyfile_wordchars",
+"children" : [
+{
+"name" : "utils_get_setting_string"}
+]
+},
+{
+"name" : "get_lexer_filetype"},
+{
+"name" : "read_properties",
+"children" : [
+{
+"name" : "get_key_values"},
+{
+"name" : "utils_strv_join"}
+]
+},
+{
+"name" : "styleset_common_init",
+"children" : [
+{
+"name" : "get_keyfile_int",
+"children" : [
+{
+"name" : "convert_int"}
+]
+},
+{
+"name" : "get_keyfile_ints",
+"children" : [
+{
+"name" : "get_keyfile_int"}
+]
+},
+{
+"name" : "get_keyfile_style",
+"children" : [
+{
+"name" : "parse_keyfile_style",
+"children" : [
+{
+"name" : "geany_debug"},
+{
+"name" : "parse_color",
+"children" : [
+{
+"name" : "geany_debug"},
+{
+"name" : "utils_strtod"}
+]
+},
+{
+"name" : "read_named_style"},
+{
+"name" : "utils_atob"}
+]
+}
+]
+},
+{
+"name" : "get_keyfile_whitespace_chars",
+"children" : [
+{
+"name" : "utils_get_setting_string"}
+]
+},
+{
+"name" : "get_keyfile_wordchars"},
+{
+"name" : "load_named_styles",
+"children" : [
+{
+"name" : "add_named_style",
+"children" : [
+{
+"name" : "parse_keyfile_style"}
+]
+},
+{
+"name" : "get_named_styles",
+"children" : [
+{
+"name" : "add_named_style"}
+]
+},
+{
+"name" : "read_named_style"},
+{
+"name" : "utils_key_file_new"}
+]
+}
+]
+},
+{
+"name" : "styleset_init_from_mapping",
+"children" : [
+{
+"name" : "get_keyfile_keywords",
+"children" : [
+{
+"name" : "utils_get_setting_string"}
+]
+},
+{
+"name" : "get_keyfile_style"},
+{
+"name" : "new_styleset"}
+]
+},
+{
+"name" : "utils_get_setting_string"}
+]
+},
+{
+"name" : "load_settings",
+"children" : [
+{
+"name" : "build_load_menu",
+"children" : [
+{
+"name" : "build_load_menu_grp"},
+{
+"name" : "filetypes_lookup_by_name"},
+{
+"name" : "project_get_base_path"}
+]
+},
+{
+"name" : "configuration_load",
+"children" : [
+{
+"name" : "configuration_load_session_files",
+"children" : [
+{
+"name" : "load_recent_files"},
+{
+"name" : "utils_get_setting_integer"},
+{
+"name" : "utils_get_setting_string"},
+{
+"name" : "vte_cwd"}
+]
+},
+{
+"name" : "geany_debug"},
+{
+"name" : "load_dialog_prefs",
+"children" : [
+{
+"name" : "build_load_menu"},
+{
+"name" : "build_set_group_count"},
+{
+"name" : "encodings_get_from_charset"},
+{
+"name" : "settings_action",
+"children" : [
+{
+"name" : "stash_group_load_from_key_file"},
+{
+"name" : "stash_group_save_to_key_file"}
+]
+},
+{
+"name" : "utils_get_initials"},
+{
+"name" : "utils_get_setting_boolean"},
+{
+"name" : "utils_get_setting_integer"},
+{
+"name" : "utils_get_setting_string"},
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "load_ui_prefs",
+"children" : [
+{
+"name" : "utils_get_setting_boolean"},
+{
+"name" : "utils_get_setting_integer"},
+{
+"name" : "utils_get_setting_string"}
+]
+},
+{
+"name" : "project_load_prefs",
+"children" : [
+{
+"name" : "utils_get_setting_string"}
+]
+}
+]
+},
+{
+"name" : "filetypes_lookup_by_name"},
+{
+"name" : "geany_debug"},
+{
+"name" : "load_indent_settings",
+"children" : [
+{
+"name" : "utils_get_setting_integer"}
+]
+},
+{
+"name" : "utils_get_setting_boolean"},
+{
+"name" : "utils_get_setting_integer"},
+{
+"name" : "utils_get_setting_string"}
+]
+},
+{
+"name" : "load_system_keyfile",
+"children" : [
+{
+"name" : "geany_debug"}
+]
+}
+]
+},
+{
+"name" : "get_lexer_filetype"},
+{
+"name" : "sci_set_property"},
+{
+"name" : "styleset_default",
+"children" : [
+{
+"name" : "sci_set_lexer",
+"children" : [
+{
+"name" : "sci_get_lexer"}
+]
+},
+{
+"name" : "set_sci_style",
+"children" : [
+{
+"name" : "get_style"},
+{
+"name" : "invert",
+"children" : [
+{
+"name" : "utils_invert_color"}
+]
+}
+]
+},
+{
+"name" : "styleset_common",
+"children" : [
+{
+"name" : "geany_debug"},
+{
+"name" : "invert"},
+{
+"name" : "rotate_rgb"},
+{
+"name" : "sci_set_property"},
+{
+"name" : "set_character_classes"},
+{
+"name" : "set_sci_style"}
+]
+}
+]
+},
+{
+"name" : "styleset_from_mapping",
+"children" : [
+{
+"name" : "merge_type_keywords",
+"children" : [
+{
+"name" : "g_string_append_c_inline"},
+{
+"name" : "get_global_typenames",
+"children" : [
+{
+"name" : "symbols_find_tags_as_string"}
+]
+},
+{
+"name" : "sci_set_keywords"}
+]
+},
+{
+"name" : "sci_set_keywords"},
+{
+"name" : "sci_set_lexer"},
+{
+"name" : "sci_set_property"},
+{
+"name" : "set_sci_style"},
+{
+"name" : "styleset_common"}
+]
+}
+]
+},
+{
+"name" : "queue_colourise"},
+{
+"name" : "symbols_global_tags_loaded",
+"children" : [
+{
+"name" : "filetypes_load_config"},
+{
+"name" : "html_tags_loaded",
+"children" : [
+{
+"name" : "utils_read_file_in_array"}
+]
+},
+{
+"name" : "load_c_ignore_tags"},
+{
+"name" : "load_user_tags",
+"children" : [
+{
+"name" : "init_user_tags",
+"children" : [
+{
+"name" : "detect_global_tags_filetype",
+"children" : [
+{
+"name" : "filetypes_detect_from_extension"}
+]
+},
+{
+"name" : "geany_debug"},
+{
+"name" : "utils_get_file_list_full"},
+{
+"name" : "utils_get_utf8_from_locale"},
+{
+"name" : "utils_mkdir"}
+]
+},
+{
+"name" : "symbols_load_global_tags",
+"children" : [
+{
+"name" : "geany_debug"},
+{
+"name" : "get_tag_count"}
+]
+}
+]
+},
+{
+"name" : "symbols_global_tags_loaded"},
+{
+"name" : "symbols_load_global_tags"}
+]
+}
+]
+},
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "geany_debug"},
+{
+"name" : "sidebar_openfiles_update"},
+{
+"name" : "ui_document_show_hide"}
+]
+},
+{
+"name" : "filetypes_detect_from_document"},
+{
+"name" : "filetypes_select_radio_item"},
+{
+"name" : "monitor_file_setup"},
+{
+"name" : "replace_header_filename",
+"children" : [
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_replace_target"},
+{
+"name" : "sci_set_target_end"},
+{
+"name" : "sci_set_target_start"},
+{
+"name" : "search_find_text",
+"children" : [
+{
+"name" : "compile_regex"},
+{
+"name" : "find_regex",
+"children" : [
+{
+"name" : "sci_get_length"}
+]
+},
+{
+"name" : "geany_match_info_free"},
+{
+"name" : "match_info_new"},
+{
+"name" : "sci_find_text"}
+]
+}
+]
+},
+{
+"name" : "ui_add_recent_document"}
+]
+}
+]
+},
+{
+"name" : "utils_beep"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+}
+]
+},
+{
+"name" : "document_need_save_as"},
+{
+"name" : "document_set_filetype"},
+{
+"name" : "document_show_tab"},
+{
+"name" : "document_update_tab_label"},
+{
+"name" : "document_update_timestamp",
+"children" : [
+{
+"name" : "ui_set_statusbar"}
+]
+},
+{
+"name" : "editor_ensure_final_newline",
+"children" : [
+{
+"name" : "editor_get_eol_char",
+"children" : [
+{
+"name" : "sci_get_eol_mode"},
+{
+"name" : "utils_get_eol_char"}
+]
+},
+{
+"name" : "sci_get_line_count"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_insert_text"}
+]
+},
+{
+"name" : "editor_replace_tabs",
+"children" : [
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_find_text"},
+{
+"name" : "sci_get_col_from_position"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_get_tab_width"},
+{
+"name" : "sci_replace_target"},
+{
+"name" : "sci_set_target_end"},
+{
+"name" : "sci_set_target_start"},
+{
+"name" : "sci_start_undo_action"}
+]
+},
+{
+"name" : "editor_strip_trailing_spaces",
+"children" : [
+{
+"name" : "editor_strip_line_trailing_spaces",
+"children" : [
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_lexer"},
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_replace_target"},
+{
+"name" : "sci_set_target_end"},
+{
+"name" : "sci_set_target_start"}
+]
+},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_get_line_count"},
+{
+"name" : "sci_start_undo_action"}
+]
+},
+{
+"name" : "encodings_is_unicode_charset"},
+{
+"name" : "msgwin_status_add"},
+{
+"name" : "project_get_file_prefs"},
+{
+"name" : "save_convert_to_encoding",
+"children" : [
+{
+"name" : "dialogs_show_msgbox_with_secondary"},
+{
+"name" : "geany_debug"},
+{
+"name" : "get_line_column_from_pos",
+"children" : [
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_position_from_line"}
+]
+},
+{
+"name" : "sci_get_text_range"}
+]
+},
+{
+"name" : "save_doc",
+"children" : [
+{
+"name" : "monitor_file_setup"},
+{
+"name" : "utils_is_remote_path"},
+{
+"name" : "write_data_to_disk",
+"children" : [
+{
+"name" : "geany_debug"}
+]
+}
+]
+},
+{
+"name" : "sci_convert_eols"},
+{
+"name" : "sci_get_eol_mode"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_get_text"},
+{
+"name" : "sci_set_savepoint"},
+{
+"name" : "store_saved_encoding"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "ui_update_statusbar"},
+{
+"name" : "utils_beep"},
+{
+"name" : "utils_get_locale_from_utf8"},
+{
+"name" : "utils_str_equal"},
+{
+"name" : "vte_cwd"}
+]
+},
+{
+"name" : "get_build_cmd"},
+{
+"name" : "kill_process",
+"children" : [
+{
+"name" : "build_menu_update"},
+{
+"name" : "ui_set_statusbar"}
+]
+},
+{
+"name" : "on_make_custom_input_response",
+"children" : [
+{
+"name" : "build_command"},
+{
+"name" : "document_get_current"}
+]
+},
+{
+"name" : "utils_open_browser",
+"children" : [
+{
+"name" : "dialogs_show_input"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "on_toolbutton_make_activate",
+"children" : [
+{
+"name" : "on_build_menu_item"}
+]
+},
+{
+"name" : "toolbar_get_action_by_name"},
+{
+"name" : "ui_image_menu_item_new"}
+]
+},
+{
+"name" : "build_menu_update"},
+{
+"name" : "configuration_apply_settings",
+"children" : [
+{
+"name" : "msgwin_show_hide_tabs",
+"children" : [
+{
+"name" : "ui_widget_show_hide"}
+]
+},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_set_fullscreen"}
+]
+},
+{
+"name" : "configuration_init",
+"children" : [
+{
+"name" : "init_pref_groups",
+"children" : [
+{
+"name" : "configuration_add_pref_group"},
+{
+"name" : "configuration_add_various_pref_group",
+"children" : [
+{
+"name" : "configuration_add_pref_group"},
+{
+"name" : "stash_group_set_various"}
+]
+},
+{
+"name" : "stash_group_add_boolean",
+"children" : [
+{
+"name" : "add_pref"}
+]
+},
+{
+"name" : "stash_group_add_combo_box"},
+{
+"name" : "stash_group_add_entry",
+"children" : [
+{
+"name" : "add_widget_pref"}
+]
+},
+{
+"name" : "stash_group_add_integer"},
+{
+"name" : "stash_group_add_radio_buttons"},
+{
+"name" : "stash_group_add_spin_button_integer"},
+{
+"name" : "stash_group_add_string",
+"children" : [
+{
+"name" : "add_pref"}
+]
+},
+{
+"name" : "stash_group_add_toggle_button"},
+{
+"name" : "stash_group_new"}
+]
+}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "document_grab_focus"},
+{
+"name" : "document_init_doclist"},
+{
+"name" : "document_new_file_if_non_open"},
+{
+"name" : "editor_init",
+"children" : [
+{
+"name" : "on_document_save",
+"children" : [
+{
+"name" : "document_reload_config",
+"children" : [
+{
+"name" : "document_load_config"}
+]
+},
+{
+"name" : "editor_snippets_free"},
+{
+"name" : "editor_snippets_init",
+"children" : [
+{
+"name" : "load_kb",
+"children" : [
+{
+"name" : "add_kb",
+"children" : [
+{
+"name" : "keybindings_set_item",
+"children" : [
+{
+"name" : "keybindings_get_item"}
+]
+},
+{
+"name" : "on_snippet_keybinding_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_insert_snippet",
+"children" : [
+{
+"name" : "editor_insert_text_block",
+"children" : [
+{
+"name" : "count_indent_size",
+"children" : [
+{
+"name" : "sci_get_tab_width"}
+]
+},
+{
+"name" : "editor_get_eol_char"},
+{
+"name" : "fix_indentation",
+"children" : [
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "sci_get_tab_width"},
+{
+"name" : "utils_string_regex_replace_all",
+"children" : [
+{
+"name" : "utils_string_replace"}
+]
+},
+{
+"name" : "utils_string_replace_all"}
+]
+},
+{
+"name" : "replace_cursor_markers",
+"children" : [
+{
+"name" : "utils_string_find"}
+]
+},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_get_line"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_insert_text"},
+{
+"name" : "sci_set_current_position"},
+{
+"name" : "utils_string_replace_all"}
+]
+},
+{
+"name" : "snippets_make_replacements",
+"children" : [
+{
+"name" : "snippets_replace_specials",
+"children" : [
+{
+"name" : "utils_string_replace_all"}
+]
+},
+{
+"name" : "templates_replace_common",
+"children" : [
+{
+"name" : "templates_replace_command",
+"children" : [
+{
+"name" : "run_command",
+"children" : [
+{
+"name" : "utils_copy_environment",
+"children" : [
+{
+"name" : "str_in_array",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+},
+{
+"name" : "utils_spawn_sync"}
+]
+},
+{
+"name" : "utils_string_replace_first",
+"children" : [
+{
+"name" : "utils_string_find"},
+{
+"name" : "utils_string_replace"}
+]
+}
+]
+},
+{
+"name" : "templates_replace_default_dates",
+"children" : [
+{
+"name" : "templates_replace_valist",
+"children" : [
+{
+"name" : "replace_static_values",
+"children" : [
+{
+"name" : "utils_string_replace_all"}
+]
+},
+{
+"name" : "utils_string_replace_all"}
+]
+},
+{
+"name" : "utils_free_pointers"},
+{
+"name" : "utils_get_date_time"}
+]
+},
+{
+"name" : "templates_replace_valist"}
+]
+},
+{
+"name" : "templates_replace_valist"},
+{
+"name" : "utils_string_replace_all"}
+]
+}
+]
+},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_scroll_caret"},
+{
+"name" : "snippets_find_completion_by_name"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "ui_lookup_widget"}
+]
+}
+]
+},
+{
+"name" : "snippets_load",
+"children" : [
+{
+"name" : "utils_get_setting_string"}
+]
+}
+]
+},
+{
+"name" : "filetypes_load_config"},
+{
+"name" : "filetypes_reload_extensions",
+"children" : [
+{
+"name" : "document_set_filetype"},
+{
+"name" : "filetypes_detect_from_document"},
+{
+"name" : "read_filetype_config",
+"children" : [
+{
+"name" : "read_extensions"},
+{
+"name" : "read_groups",
+"children" : [
+{
+"name" : "read_group",
+"children" : [
+{
+"name" : "filetype_make_title"},
+{
+"name" : "filetypes_lookup_by_name"},
+{
+"name" : "geany_debug"}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "load_c_ignore_tags"},
+{
+"name" : "templates_free_templates",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_type"},
+{
+"name" : "geany_menu_button_action_set_menu"},
+{
+"name" : "toolbar_get_action_by_name"}
+]
+},
+{
+"name" : "templates_init",
+"children" : [
+{
+"name" : "create_file_template_menu",
+"children" : [
+{
+"name" : "add_custom_template_items",
+"children" : [
+{
+"name" : "add_file_item",
+"children" : [
+{
+"name" : "on_new_with_file_template",
+"children" : [
+{
+"name" : "document_new_file"},
+{
+"name" : "filetypes_detect_from_extension"},
+{
+"name" : "get_template_from_file",
+"children" : [
+{
+"name" : "get_template_fileheader",
+"children" : [
+{
+"name" : "filetypes_load_config"},
+{
+"name" : "make_comment_block",
+"children" : [
+{
+"name" : "filetype_get_comment_open_close"},
+{
+"name" : "filetypes_index"},
+{
+"name" : "utils_free_pointers"},
+{
+"name" : "utils_get_eol_char"},
+{
+"name" : "utils_get_line_endings"}
+]
+},
+{
+"name" : "templates_replace_valist"}
+]
+},
+{
+"name" : "read_file",
+"children" : [
+{
+"name" : "encodings_convert_to_utf8_auto"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_ensure_same_eol_characters"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+},
+{
+"name" : "templates_replace_common"},
+{
+"name" : "templates_replace_valist"},
+{
+"name" : "utils_free_pointers"}
+]
+},
+{
+"name" : "ui_menu_item_get_text"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_get_locale_from_utf8"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+},
+{
+"name" : "utils_get_config_files",
+"children" : [
+{
+"name" : "utils_get_file_list_full"},
+{
+"name" : "utils_mkdir"},
+{
+"name" : "utils_str_casecmp"},
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+},
+{
+"name" : "geany_menu_button_action_get_type"},
+{
+"name" : "geany_menu_button_action_set_menu"},
+{
+"name" : "toolbar_get_action_by_name"}
+]
+},
+{
+"name" : "init_general_templates",
+"children" : [
+{
+"name" : "read_template",
+"children" : [
+{
+"name" : "read_file"}
+]
+}
+]
+},
+{
+"name" : "on_document_save"},
+{
+"name" : "on_file_menu_hide",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_type"},
+{
+"name" : "geany_menu_button_action_set_menu"},
+{
+"name" : "toolbar_get_action_by_name"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "on_file_menu_show",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_type"},
+{
+"name" : "geany_menu_button_action_set_menu"},
+{
+"name" : "toolbar_get_action_by_name"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "on_editor_notify",
+"children" : [
+{
+"name" : "auto_update_margin_width",
+"children" : [
+{
+"name" : "sci_get_line_count"},
+{
+"name" : "sci_set_line_numbers"}
+]
+},
+{
+"name" : "document_open_file_list",
+"children" : [
+{
+"name" : "document_open_file"},
+{
+"name" : "utils_get_eol_char"},
+{
+"name" : "utils_get_line_endings"},
+{
+"name" : "utils_get_path_from_uri",
+"children" : [
+{
+"name" : "geany_debug"},
+{
+"name" : "utils_is_uri"}
+]
+}
+]
+},
+{
+"name" : "document_set_text_changed"},
+{
+"name" : "document_undo_add",
+"children" : [
+{
+"name" : "document_set_text_changed"},
+{
+"name" : "g_trash_stack_push"},
+{
+"name" : "ui_update_popup_reundo_items"}
+]
+},
+{
+"name" : "document_update_tag_list_in_idle",
+"children" : [
+{
+"name" : "filetype_has_tags"},
+{
+"name" : "on_document_update_tag_list_idle",
+"children" : [
+{
+"name" : "document_update_tags"}
+]
+}
+]
+},
+{
+"name" : "editor_scroll_to_line",
+"children" : [
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_scroll_caret"}
+]
+},
+{
+"name" : "editor_show_calltip",
+"children" : [
+{
+"name" : "editor_find_current_word"},
+{
+"name" : "find_calltip",
+"children" : [
+{
+"name" : "append_calltip"},
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "find_previous_brace",
+"children" : [
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "utils_is_opening_brace"}
+]
+},
+{
+"name" : "find_start_bracket",
+"children" : [
+{
+"name" : "sci_get_char_at"}
+]
+},
+{
+"name" : "highlighting_is_code_style",
+"children" : [
+{
+"name" : "highlighting_is_comment_style"},
+{
+"name" : "highlighting_is_string_style"}
+]
+},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_get_lexer"},
+{
+"name" : "sci_get_style_at"},
+{
+"name" : "utils_wrap_string"}
+]
+},
+{
+"name" : "ensure_range_visible",
+"children" : [
+{
+"name" : "sci_get_line_from_position"}
+]
+},
+{
+"name" : "fold_changed",
+"children" : [
+{
+"name" : "expand",
+"children" : [
+{
+"name" : "expand"},
+{
+"name" : "sci_get_fold_expanded"}
+]
+},
+{
+"name" : "sci_get_fold_expanded"},
+{
+"name" : "sci_get_fold_parent"},
+{
+"name" : "sci_get_line_is_visible"}
+]
+},
+{
+"name" : "on_char_added",
+"children" : [
+{
+"name" : "auto_close_chars",
+"children" : [
+{
+"name" : "sci_add_text"},
+{
+"name" : "sci_find_matching_brace"},
+{
+"name" : "sci_set_current_position"},
+{
+"name" : "utils_isbrace"}
+]
+},
+{
+"name" : "check_line_breaking",
+"children" : [
+{
+"name" : "sci_cancel"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_col_from_position"},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_position_from_col"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_scroll_caret"},
+{
+"name" : "sci_send_command"},
+{
+"name" : "sci_set_current_position"}
+]
+},
+{
+"name" : "close_block",
+"children" : [
+{
+"name" : "brace_match",
+"children" : [
+{
+"name" : "sci_colourise"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_end_styled"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_get_style_at"},
+{
+"name" : "utils_brace_opposite"},
+{
+"name" : "utils_is_opening_brace"}
+]
+},
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "get_whitespace",
+"children" : [
+{
+"name" : "get_tab_width"}
+]
+},
+{
+"name" : "lexer_has_braces",
+"children" : [
+{
+"name" : "sci_get_lexer"}
+]
+},
+{
+"name" : "sci_get_line"},
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_line_indentation"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_replace_sel"},
+{
+"name" : "sci_set_anchor",
+"children" : [
+{
+"name" : "sci_get_current_position"}
+]
+},
+{
+"name" : "sci_set_line_indentation"}
+]
+},
+{
+"name" : "editor_show_calltip"},
+{
+"name" : "editor_start_auto_complete",
+"children" : [
+{
+"name" : "autocomplete_check_html",
+"children" : [
+{
+"name" : "autocomplete_html",
+"children" : [
+{
+"name" : "g_string_append_c_inline"},
+{
+"name" : "show_autocomplete",
+"children" : [
+{
+"name" : "sci_send_command"}
+]
+},
+{
+"name" : "symbols_get_html_entities",
+"children" : [
+{
+"name" : "html_tags_loaded"}
+]
+}
+]
+},
+{
+"name" : "is_style_php"},
+{
+"name" : "read_current_word"},
+{
+"name" : "sci_get_lexer"}
+]
+},
+{
+"name" : "autocomplete_doc_word",
+"children" : [
+{
+"name" : "g_string_append_c_inline"},
+{
+"name" : "get_doc_words",
+"children" : [
+{
+"name" : "sci_get_contents_range"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_word_end_position"},
+{
+"name" : "utils_str_casecmp"}
+]
+},
+{
+"name" : "show_autocomplete"}
+]
+},
+{
+"name" : "autocomplete_scope",
+"children" : [
+{
+"name" : "editor_get_word_at_pos",
+"children" : [
+{
+"name" : "read_current_word"}
+]
+},
+{
+"name" : "match_last_chars",
+"children" : [
+{
+"name" : "sci_get_text_range"}
+]
+},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "show_tags_list",
+"children" : [
+{
+"name" : "g_string_append_c_inline"},
+{
+"name" : "show_autocomplete"}
+]
+}
+]
+},
+{
+"name" : "autocomplete_tags",
+"children" : [
+{
+"name" : "show_tags_list"}
+]
+},
+{
+"name" : "highlighting_is_code_style"},
+{
+"name" : "read_current_word"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_lexer"},
+{
+"name" : "sci_get_style_at"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "handle_xml",
+"children" : [
+{
+"name" : "highlighting_is_string_style"},
+{
+"name" : "insert_closing_tag",
+"children" : [
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_replace_sel"},
+{
+"name" : "sci_set_selection"},
+{
+"name" : "sci_start_undo_action"}
+]
+},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_lexer"},
+{
+"name" : "sci_get_style_at"},
+{
+"name" : "sci_get_text_range"},
+{
+"name" : "utils_find_open_xml_tag",
+"children" : [
+{
+"name" : "utils_find_open_xml_tag_pos"}
+]
+},
+{
+"name" : "utils_is_short_html_tag"}
+]
+},
+{
+"name" : "on_new_line_added",
+"children" : [
+{
+"name" : "auto_multiline",
+"children" : [
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "in_block_comment"},
+{
+"name" : "is_comment_char"},
+{
+"name" : "sci_add_text"},
+{
+"name" : "sci_get_col_from_position"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_get_lexer"},
+{
+"name" : "sci_get_line"},
+{
+"name" : "sci_get_line_indent_position"},
+{
+"name" : "sci_get_style_at"}
+]
+},
+{
+"name" : "editor_strip_line_trailing_spaces"},
+{
+"name" : "insert_indent_after_line",
+"children" : [
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "get_indent_size_after_line",
+"children" : [
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "get_brace_indent",
+"children" : [
+{
+"name" : "highlighting_is_code_style"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_lexer"},
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_style_at"}
+]
+},
+{
+"name" : "get_python_indent",
+"children" : [
+{
+"name" : "get_sci_line_code_end_position",
+"children" : [
+{
+"name" : "highlighting_is_code_style"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_lexer"},
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_style_at"}
+]
+},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_style_at"}
+]
+},
+{
+"name" : "get_xml_indent",
+"children" : [
+{
+"name" : "get_sci_line_code_end_position"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_contents_range"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_get_lexer"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_style_at"},
+{
+"name" : "utils_find_open_xml_tag"},
+{
+"name" : "utils_is_short_html_tag"}
+]
+},
+{
+"name" : "lexer_has_braces"},
+{
+"name" : "sci_get_lexer"},
+{
+"name" : "sci_get_line_indentation"}
+]
+},
+{
+"name" : "get_whitespace"},
+{
+"name" : "sci_add_text"},
+{
+"name" : "sci_get_contents_range"},
+{
+"name" : "sci_get_line_indent_position"},
+{
+"name" : "sci_get_line_indentation"},
+{
+"name" : "sci_get_position_from_line"}
+]
+},
+{
+"name" : "sci_get_current_line"}
+]
+},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_get_eol_mode"}
+]
+},
+{
+"name" : "on_margin_click",
+"children" : [
+{
+"name" : "editor_toggle_fold",
+"children" : [
+{
+"name" : "sci_get_first_visible_line"},
+{
+"name" : "sci_get_fold_expanded"},
+{
+"name" : "sci_get_fold_level"},
+{
+"name" : "sci_get_fold_parent"},
+{
+"name" : "sci_get_line_is_visible"},
+{
+"name" : "sci_toggle_fold"}
+]
+},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_toggle_marker_at_line",
+"children" : [
+{
+"name" : "sci_delete_marker_at_line"},
+{
+"name" : "sci_is_marker_set_at_line"},
+{
+"name" : "sci_set_marker_at_line"}
+]
+}
+]
+},
+{
+"name" : "on_update_ui",
+"children" : [
+{
+"name" : "editor_highlight_braces",
+"children" : [
+{
+"name" : "delay_match_brace",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_highlight_braces"},
+{
+"name" : "sci_find_matching_brace"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_col_from_position"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "utils_isbrace"}
+]
+},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "utils_isbrace"}
+]
+},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "ui_update_popup_reundo_items"},
+{
+"name" : "ui_update_statusbar"}
+]
+},
+{
+"name" : "request_reshowing_calltip",
+"children" : [
+{
+"name" : "reshow_calltip",
+"children" : [
+{
+"name" : "document_get_current"}
+]
+}
+]
+},
+{
+"name" : "sci_add_text"},
+{
+"name" : "sci_cancel"},
+{
+"name" : "sci_set_line_numbers"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "ui_add_config_file_menu_item",
+"children" : [
+{
+"name" : "free_on_closure_notify"},
+{
+"name" : "on_config_file_clicked",
+"children" : [
+{
+"name" : "document_new_file"},
+{
+"name" : "document_open_file"},
+{
+"name" : "utils_free_pointers"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "editor_snippets_init"},
+{
+"name" : "encodings_init",
+"children" : [
+{
+"name" : "encodings_radio_item_change_cb",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "document_set_encoding",
+"children" : [
+{
+"name" : "encodings_is_unicode_charset"},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_update_statusbar"},
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "document_undo_add"},
+{
+"name" : "utils_beep"},
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "encodings_to_string"},
+{
+"name" : "init_encodings"},
+{
+"name" : "on_reload_as_activate"},
+{
+"name" : "regex_compile",
+"children" : [
+{
+"name" : "geany_debug"}
+]
+},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "filetypes_init",
+"children" : [
+{
+"name" : "create_set_filetype_menu",
+"children" : [
+{
+"name" : "create_radio_menu_item",
+"children" : [
+{
+"name" : "on_filetype_change",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "document_set_filetype"}
+]
+}
+]
+},
+{
+"name" : "create_sub_menu"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "filetypes_init_types",
+"children" : [
+{
+"name" : "cmp_filetype",
+"children" : [
+{
+"name" : "utils_str_casecmp"}
+]
+},
+{
+"name" : "filetype_add"},
+{
+"name" : "filetype_new"},
+{
+"name" : "init_builtin_filetypes",
+"children" : [
+{
+"name" : "filetype_make_title"}
+]
+},
+{
+"name" : "init_custom_filetypes",
+"children" : [
+{
+"name" : "add_custom_filetype",
+"children" : [
+{
+"name" : "filetype_add"},
+{
+"name" : "filetype_make_title"},
+{
+"name" : "filetype_new"},
+{
+"name" : "geany_debug"}
+]
+}
+]
+},
+{
+"name" : "read_filetype_config"}
+]
+},
+{
+"name" : "setup_config_file_menus",
+"children" : [
+{
+"name" : "on_document_save"},
+{
+"name" : "ui_add_config_file_menu_item"}
+]
+},
+{
+"name" : "ui_get_mime_icon"}
+]
+},
+{
+"name" : "geany_debug"},
+{
+"name" : "geany_object_new",
+"children" : [
+{
+"name" : "geany_object_get_type",
+"children" : [
+{
+"name" : "geany_object_class_intern_init",
+"children" : [
+{
+"name" : "geany_object_class_init",
+"children" : [
+{
+"name" : "create_signals",
+"children" : [
+{
+"name" : "boolean_handled_accumulator"},
+{
+"name" : "geany_cclosure_marshal_BOOL__POINTER_POINTER"},
+{
+"name" : "geany_cclosure_marshal_VOID__POINTER_POINTER"},
+{
+"name" : "geany_cclosure_marshal_VOID__STRING_INT_POINTER"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "geany_object_init"}
+]
+}
+]
+},
+{
+"name" : "get_locale"},
+{
+"name" : "keybindings_init",
+"children" : [
+{
+"name" : "init_default_kb",
+"children" : [
+{
+"name" : "add_kb"},
+{
+"name" : "add_kb_group"},
+{
+"name" : "cb_func_build_action",
+"children" : [
+{
+"name" : "build_get_menu_items"},
+{
+"name" : "document_get_current"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "cb_func_clipboard_action",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "on_copy1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "sci_copy"}
+]
+},
+{
+"name" : "on_cut1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "sci_cut"}
+]
+},
+{
+"name" : "on_paste1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "sci_paste"}
+]
+},
+{
+"name" : "sci_send_command"}
+]
+},
+{
+"name" : "cb_func_document_action",
+"children" : [
+{
+"name" : "document_clone",
+"children" : [
+{
+"name" : "document_new_file"},
+{
+"name" : "document_set_encoding"},
+{
+"name" : "document_set_text_changed"},
+{
+"name" : "editor_set_indent"},
+{
+"name" : "sci_get_contents",
+"children" : [
+{
+"name" : "sci_get_length"}
+]
+},
+{
+"name" : "sci_get_selection_contents"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "sci_set_lines_wrapped"},
+{
+"name" : "sci_set_readonly"},
+{
+"name" : "ui_document_show_hide"}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "document_update_tags"},
+{
+"name" : "editor_fold_all",
+"children" : [
+{
+"name" : "fold_all",
+"children" : [
+{
+"name" : "editor_scroll_to_line"},
+{
+"name" : "sci_get_first_visible_line"},
+{
+"name" : "sci_get_fold_expanded"},
+{
+"name" : "sci_get_fold_level"},
+{
+"name" : "sci_get_line_count"},
+{
+"name" : "sci_toggle_fold"}
+]
+}
+]
+},
+{
+"name" : "editor_toggle_fold"},
+{
+"name" : "editor_unfold_all",
+"children" : [
+{
+"name" : "fold_all"}
+]
+},
+{
+"name" : "on_line_breaking1_activate",
+"children" : [
+{
+"name" : "document_get_current"}
+]
+},
+{
+"name" : "on_line_wrapping1_toggled",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_set_line_wrapping",
+"children" : [
+{
+"name" : "sci_set_lines_wrapped"}
+]
+}
+]
+},
+{
+"name" : "on_menu_remove_indicators1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_indicator_clear"}
+]
+},
+{
+"name" : "on_remove_markers1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_indicator_clear"},
+{
+"name" : "sci_marker_delete_all"}
+]
+},
+{
+"name" : "on_replace_spaces_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_replace_spaces",
+"children" : [
+{
+"name" : "dialogs_show_input_numeric",
+"children" : [
+{
+"name" : "on_input_numeric_activate"},
+{
+"name" : "ui_dialog_vbox_new"},
+{
+"name" : "ui_entry_add_clear_icon"}
+]
+},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_find_text"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_line_indent_position"},
+{
+"name" : "sci_get_tab_width"},
+{
+"name" : "sci_replace_target"},
+{
+"name" : "sci_set_target_end"},
+{
+"name" : "sci_set_target_start"},
+{
+"name" : "sci_start_undo_action"}
+]
+}
+]
+},
+{
+"name" : "on_replace_tabs_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_replace_tabs"}
+]
+},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "ui_document_show_hide"}
+]
+},
+{
+"name" : "cb_func_editor_action",
+"children" : [
+{
+"name" : "check_current_word",
+"children" : [
+{
+"name" : "read_current_word"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "check_snippet_completion",
+"children" : [
+{
+"name" : "editor_complete_snippet",
+"children" : [
+{
+"name" : "at_eol",
+"children" : [
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_line_from_position"}
+]
+},
+{
+"name" : "editor_read_word_stem",
+"children" : [
+{
+"name" : "read_current_word"}
+]
+},
+{
+"name" : "keybindings_lookup_item"},
+{
+"name" : "sci_cancel"},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "sci_start_undo_action"},
+{
+"name" : "snippets_complete_constructs",
+"children" : [
+{
+"name" : "editor_insert_snippet"},
+{
+"name" : "sci_replace_sel"},
+{
+"name" : "sci_scroll_caret"},
+{
+"name" : "sci_set_selection_end"},
+{
+"name" : "sci_set_selection_start"},
+{
+"name" : "snippets_find_completion_by_name"}
+]
+},
+{
+"name" : "snippets_find_completion_by_name"}
+]
+},
+{
+"name" : "sci_get_current_position"}
+]
+},
+{
+"name" : "delete_lines",
+"children" : [
+{
+"name" : "editor_select_lines",
+"children" : [
+{
+"name" : "sci_get_col_from_position"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_set_selection"}
+]
+},
+{
+"name" : "sci_clear"}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "duplicate_lines",
+"children" : [
+{
+"name" : "editor_select_lines"},
+{
+"name" : "sci_get_lines_selected"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "sci_line_duplicate"},
+{
+"name" : "sci_selection_duplicate"}
+]
+},
+{
+"name" : "editor_complete_word_part",
+"children" : [
+{
+"name" : "check_partial_completion",
+"children" : [
+{
+"name" : "partial_complete",
+"children" : [
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_insert_text"},
+{
+"name" : "sci_set_current_position"}
+]
+},
+{
+"name" : "read_current_word"}
+]
+},
+{
+"name" : "sci_get_string"}
+]
+},
+{
+"name" : "editor_goto_next_snippet_cursor",
+"children" : [
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_set_current_position"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "editor_scroll_to_line"},
+{
+"name" : "editor_show_calltip"},
+{
+"name" : "editor_show_macro_list",
+"children" : [
+{
+"name" : "symbols_get_macro_list",
+"children" : [
+{
+"name" : "g_string_append_c_inline"}
+]
+}
+]
+},
+{
+"name" : "editor_start_auto_complete"},
+{
+"name" : "keybindings_lookup_item"},
+{
+"name" : "on_context_action1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "sci_get_selection_contents"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_str_replace_all"}
+]
+},
+{
+"name" : "on_redo1_activate",
+"children" : [
+{
+"name" : "document_can_redo"},
+{
+"name" : "document_get_current"},
+{
+"name" : "document_redo",
+"children" : [
+{
+"name" : "document_set_encoding"},
+{
+"name" : "document_undo_add"},
+{
+"name" : "encodings_select_radio_item"},
+{
+"name" : "g_trash_stack_pop"},
+{
+"name" : "geany_debug"},
+{
+"name" : "sci_redo",
+"children" : [
+{
+"name" : "sci_can_redo"}
+]
+},
+{
+"name" : "ui_document_show_hide"},
+{
+"name" : "ui_update_popup_reundo_items"},
+{
+"name" : "ui_update_statusbar"},
+{
+"name" : "update_changed_state",
+"children" : [
+{
+"name" : "document_set_text_changed"},
+{
+"name" : "sci_is_modified"},
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+},
+{
+"name" : "sci_cancel"}
+]
+},
+{
+"name" : "on_undo1_activate",
+"children" : [
+{
+"name" : "document_can_undo"},
+{
+"name" : "document_get_current"},
+{
+"name" : "document_undo",
+"children" : [
+{
+"name" : "document_redo_add",
+"children" : [
+{
+"name" : "document_set_text_changed"},
+{
+"name" : "g_trash_stack_push"},
+{
+"name" : "ui_update_popup_reundo_items"}
+]
+},
+{
+"name" : "document_set_encoding"},
+{
+"name" : "encodings_select_radio_item"},
+{
+"name" : "g_trash_stack_pop"},
+{
+"name" : "geany_debug"},
+{
+"name" : "sci_undo",
+"children" : [
+{
+"name" : "sci_can_undo"}
+]
+},
+{
+"name" : "ui_document_show_hide"},
+{
+"name" : "ui_update_popup_reundo_items"},
+{
+"name" : "ui_update_statusbar"},
+{
+"name" : "update_changed_state"}
+]
+},
+{
+"name" : "sci_cancel"}
+]
+},
+{
+"name" : "sci_add_text"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_move_selected_lines_down"},
+{
+"name" : "sci_move_selected_lines_up"},
+{
+"name" : "sci_send_command"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "cb_func_file_action",
+"children" : [
+{
+"name" : "document_new_file"},
+{
+"name" : "document_open_file"},
+{
+"name" : "on_close1_activate",
+"children" : [
+{
+"name" : "document_close"},
+{
+"name" : "document_get_current"}
+]
+},
+{
+"name" : "on_close_all1_activate"},
+{
+"name" : "on_menu_open_selected_file1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "document_open_file"},
+{
+"name" : "editor_get_default_selection"},
+{
+"name" : "project_get_base_path"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_get_current_file_dir_utf8"},
+{
+"name" : "utils_get_locale_from_utf8"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+},
+{
+"name" : "on_open1_activate",
+"children" : [
+{
+"name" : "dialogs_show_open_file",
+"children" : [
+{
+"name" : "create_open_file_dialog",
+"children" : [
+{
+"name" : "add_file_open_extra_widget",
+"children" : [
+{
+"name" : "on_file_open_check_hidden_toggled"}
+]
+},
+{
+"name" : "create_encoding_combo_store",
+"children" : [
+{
+"name" : "encoding_combo_store_sort_func"},
+{
+"name" : "encodings_to_string"}
+]
+},
+{
+"name" : "encoding_combo_cell_data_func"},
+{
+"name" : "filetypes_create_file_filter"},
+{
+"name" : "filetypes_create_file_filter_all_source"},
+{
+"name" : "on_file_open_show_hidden_notify",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "open_file_dialog_apply_settings",
+"children" : [
+{
+"name" : "file_chooser_get_filter_idx"},
+{
+"name" : "file_chooser_set_filter_idx"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "open_file_dialog_handle_response",
+"children" : [
+{
+"name" : "document_open_files",
+"children" : [
+{
+"name" : "document_open_file"}
+]
+},
+{
+"name" : "file_chooser_get_filter_idx"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "utils_get_current_file_dir_utf8"},
+{
+"name" : "utils_get_default_dir_utf8"},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+}
+]
+},
+{
+"name" : "on_print1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "printing_print_doc",
+"children" : [
+{
+"name" : "print_external",
+"children" : [
+{
+"name" : "dialogs_show_msgbox"},
+{
+"name" : "dialogs_show_question",
+"children" : [
+{
+"name" : "show_prompt"}
+]
+},
+{
+"name" : "msgwin_status_add"},
+{
+"name" : "utils_str_replace_all"}
+]
+},
+{
+"name" : "printing_print_gtk",
+"children" : [
+{
+"name" : "begin_print",
+"children" : [
+{
+"name" : "editor_create_widget"},
+{
+"name" : "get_text_dimensions",
+"children" : [
+{
+"name" : "geany_debug"}
+]
+},
+{
+"name" : "highlighting_set_styles"},
+{
+"name" : "sci_set_line_numbers"},
+{
+"name" : "setup_pango_layout"},
+{
+"name" : "setup_range",
+"children" : [
+{
+"name" : "sci_get_length"}
+]
+}
+]
+},
+{
+"name" : "create_custom_widget",
+"children" : [
+{
+"name" : "on_page_header_toggled"},
+{
+"name" : "ui_entry_add_clear_icon"}
+]
+},
+{
+"name" : "custom_widget_apply"},
+{
+"name" : "dialogs_show_msgbox"},
+{
+"name" : "draw_page",
+"children" : [
+{
+"name" : "add_page_header",
+"children" : [
+{
+"name" : "utils_get_date_time"}
+]
+},
+{
+"name" : "format_range"},
+{
+"name" : "sci_get_length"}
+]
+},
+{
+"name" : "end_print"},
+{
+"name" : "paginate",
+"children" : [
+{
+"name" : "format_range"}
+]
+},
+{
+"name" : "status_changed",
+"children" : [
+{
+"name" : "msgwin_status_add"}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "on_quit1_activate",
+"children" : [
+{
+"name" : "on_exit_clicked",
+"children" : [
+{
+"name" : "check_no_unsaved"},
+{
+"name" : "dialogs_show_question_full"},
+{
+"name" : "document_account_for_unsaved"},
+{
+"name" : "quit_app",
+"children" : [
+{
+"name" : "configuration_save",
+"children" : [
+{
+"name" : "configuration_save_session_files"},
+{
+"name" : "project_save_prefs"},
+{
+"name" : "save_dialog_prefs",
+"children" : [
+{
+"name" : "build_save_menu"},
+{
+"name" : "settings_action"},
+{
+"name" : "utils_get_hex_from_color",
+"children" : [
+{
+"name" : "utils_scale_round"}
+]
+}
+]
+},
+{
+"name" : "save_recent_files"},
+{
+"name" : "save_ui_prefs",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "utils_write_file"},
+{
+"name" : "vte_get_working_directory"}
+]
+},
+{
+"name" : "document_close_all"},
+{
+"name" : "main_quit",
+"children" : [
+{
+"name" : "build_finalize"},
+{
+"name" : "configuration_finalize",
+"children" : [
+{
+"name" : "stash_group_free"}
+]
+},
+{
+"name" : "document_finalize"},
+{
+"name" : "editor_finalize"},
+{
+"name" : "editor_snippets_free"},
+{
+"name" : "encodings_finalize"},
+{
+"name" : "filetypes_free_types",
+"children" : [
+{
+"name" : "filetype_free"}
+]
+},
+{
+"name" : "geany_debug"},
+{
+"name" : "highlighting_free_styles",
+"children" : [
+{
+"name" : "free_styleset"}
+]
+},
+{
+"name" : "keybindings_free",
+"children" : [
+{
+"name" : "keybindings_free_group"}
+]
+},
+{
+"name" : "log_finalize"},
+{
+"name" : "msgwin_finalize"},
+{
+"name" : "navqueue_free"},
+{
+"name" : "notebook_free"},
+{
+"name" : "plugins_finalize",
+"children" : [
+{
+"name" : "plugin_free",
+"children" : [
+{
+"name" : "is_active_plugin"},
+{
+"name" : "plugin_cleanup",
+"children" : [
+{
+"name" : "geany_debug"},
+{
+"name" : "keybindings_free_group"},
+{
+"name" : "remove_callbacks"},
+{
+"name" : "remove_sources"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "project_finalize"},
+{
+"name" : "queue_free"},
+{
+"name" : "search_finalize"},
+{
+"name" : "sidebar_finalize"},
+{
+"name" : "socket_finalize",
+"children" : [
+{
+"name" : "remove_socket_link_full"}
+]
+},
+{
+"name" : "symbols_finalize"},
+{
+"name" : "templates_free_templates"},
+{
+"name" : "toolbar_finalize",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_menu"},
+{
+"name" : "geany_menu_button_action_get_type"},
+{
+"name" : "geany_menu_button_action_set_menu"},
+{
+"name" : "toolbar_get_action_by_name"}
+]
+},
+{
+"name" : "ui_finalize_builder"},
+{
+"name" : "vte_close"}
+]
+},
+{
+"name" : "project_close",
+"children" : [
+{
+"name" : "apply_editor_prefs"},
+{
+"name" : "build_remove_menu_item",
+"children" : [
+{
+"name" : "get_build_group",
+"children" : [
+{
+"name" : "get_build_group_pointer",
+"children" : [
+{
+"name" : "document_get_current"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "configuration_open_files",
+"children" : [
+{
+"name" : "open_session_file",
+"children" : [
+{
+"name" : "document_open_file_full"},
+{
+"name" : "editor_set_indent"},
+{
+"name" : "editor_set_line_wrapping"},
+{
+"name" : "encodings_get_charset_from_index"},
+{
+"name" : "filetypes_lookup_by_name"},
+{
+"name" : "geany_debug"},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "ui_set_statusbar"}
+]
+},
+{
+"name" : "configuration_reload_default_session",
+"children" : [
+{
+"name" : "configuration_load_session_files"}
+]
+},
+{
+"name" : "document_close_all"},
+{
+"name" : "document_new_file_if_non_open"},
+{
+"name" : "remove_foreach_project_filetype"},
+{
+"name" : "stash_group_free"},
+{
+"name" : "ui_focus_current_document",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "document_grab_focus"}
+]
+},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "update_ui"},
+{
+"name" : "write_config"}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "on_save1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "document_save_file"}
+]
+},
+{
+"name" : "on_save_all1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "document_get_from_page"},
+{
+"name" : "document_save_file"},
+{
+"name" : "sidebar_update_tag_list"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "ui_set_window_title"}
+]
+},
+{
+"name" : "on_save_as1_activate",
+"children" : [
+{
+"name" : "dialogs_show_save_as"}
+]
+},
+{
+"name" : "on_toolbutton_reload_clicked"},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "cb_func_format_action",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_indentation_by_one_space",
+"children" : [
+{
+"name" : "editor_get_eol_char_len",
+"children" : [
+{
+"name" : "sci_get_eol_mode"}
+]
+},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_insert_text"},
+{
+"name" : "sci_replace_sel"},
+{
+"name" : "sci_set_current_position"},
+{
+"name" : "sci_set_selection"},
+{
+"name" : "sci_set_selection_end"},
+{
+"name" : "sci_set_selection_start"},
+{
+"name" : "sci_start_undo_action"}
+]
+},
+{
+"name" : "editor_smart_line_indentation",
+"children" : [
+{
+"name" : "editor_get_eol_char_len"},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_set_current_position"},
+{
+"name" : "sci_set_selection_end"},
+{
+"name" : "sci_set_selection_start"},
+{
+"name" : "sci_start_undo_action"},
+{
+"name" : "smart_line_indentation",
+"children" : [
+{
+"name" : "read_indent",
+"children" : [
+{
+"name" : "sci_get_line"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_line_length"}
+]
+},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_insert_text"},
+{
+"name" : "sci_replace_sel"},
+{
+"name" : "sci_set_selection"}
+]
+}
+]
+},
+{
+"name" : "join_paragraph",
+"children" : [
+{
+"name" : "editor_select_indent_block",
+"children" : [
+{
+"name" : "find_block_stop",
+"children" : [
+{
+"name" : "sci_get_line_count"},
+{
+"name" : "sci_get_line_indentation"},
+{
+"name" : "sci_is_blank_line",
+"children" : [
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_line_indent_position"}
+]
+}
+]
+},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_set_selection"}
+]
+},
+{
+"name" : "get_reflow_column",
+"children" : [
+{
+"name" : "editor_get_prefs",
+"children" : [
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "get_default_prefs",
+"children" : [
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "editor_get_long_line_column"},
+{
+"name" : "editor_get_long_line_type"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "join_lines",
+"children" : [
+{
+"name" : "editor_strip_line_trailing_spaces"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_lines_join"},
+{
+"name" : "sci_set_line_indentation"},
+{
+"name" : "sci_set_target_end"},
+{
+"name" : "sci_set_target_start"}
+]
+},
+{
+"name" : "sci_deselect_last_newline",
+"children" : [
+{
+"name" : "sci_get_col_from_position"},
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_set_selection"}
+]
+},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "sci_set_anchor"},
+{
+"name" : "sci_start_undo_action"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "on_menu_comment_line1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_do_comment",
+"children" : [
+{
+"name" : "editor_get_eol_char_len"},
+{
+"name" : "editor_get_filetype_at_line",
+"children" : [
+{
+"name" : "filetypes_load_config"},
+{
+"name" : "is_style_php"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_style_at"}
+]
+},
+{
+"name" : "filetype_get_comment_open_close"},
+{
+"name" : "get_multiline_comment_style",
+"children" : [
+{
+"name" : "is_style_php"},
+{
+"name" : "sci_get_lexer"},
+{
+"name" : "sci_get_style_at"}
+]
+},
+{
+"name" : "real_comment_multiline",
+"children" : [
+{
+"name" : "editor_get_eol_char"},
+{
+"name" : "editor_get_filetype_at_line"},
+{
+"name" : "filetype_get_comment_open_close"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_insert_text"}
+]
+},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_get_style_at"},
+{
+"name" : "sci_get_text_range"},
+{
+"name" : "sci_insert_text"},
+{
+"name" : "sci_set_selection_end"},
+{
+"name" : "sci_set_selection_start"},
+{
+"name" : "sci_start_undo_action"}
+]
+}
+]
+},
+{
+"name" : "on_menu_decrease_indent1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_indent",
+"children" : [
+{
+"name" : "editor_change_line_indent",
+"children" : [
+{
+"name" : "change_tab_indentation",
+"children" : [
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_line_indentation"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_insert_text"},
+{
+"name" : "sci_replace_sel"},
+{
+"name" : "sci_set_line_indentation"},
+{
+"name" : "sci_set_selection"}
+]
+},
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "sci_get_line_indentation"},
+{
+"name" : "sci_set_line_indentation"}
+]
+},
+{
+"name" : "editor_select_lines"},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_line_indent_position"},
+{
+"name" : "sci_get_line_length"},
+{
+"name" : "sci_get_lines_selected"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_start_undo_action"}
+]
+}
+]
+},
+{
+"name" : "on_menu_increase_indent1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_indent"}
+]
+},
+{
+"name" : "on_menu_toggle_line_commentation1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_do_comment_toggle",
+"children" : [
+{
+"name" : "editor_do_comment"},
+{
+"name" : "editor_do_uncomment",
+"children" : [
+{
+"name" : "editor_get_eol_char_len"},
+{
+"name" : "editor_get_filetype_at_line"},
+{
+"name" : "filetype_get_comment_open_close"},
+{
+"name" : "get_multiline_comment_style"},
+{
+"name" : "real_uncomment_multiline",
+"children" : [
+{
+"name" : "editor_get_filetype_at_line"},
+{
+"name" : "filetype_get_comment_open_close"},
+{
+"name" : "find_in_current_style",
+"children" : [
+{
+"name" : "sci_find_text"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_get_style_at"}
+]
+},
+{
+"name" : "sci_delete_line",
+"children" : [
+{
+"name" : "sci_get_line_length"},
+{
+"name" : "sci_get_position_from_line"}
+]
+},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_is_blank_line"}
+]
+},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_get_style_at"},
+{
+"name" : "sci_get_text_range"},
+{
+"name" : "sci_replace_sel"},
+{
+"name" : "sci_set_selection"},
+{
+"name" : "sci_set_selection_end"},
+{
+"name" : "sci_set_selection_start"},
+{
+"name" : "sci_start_undo_action"}
+]
+},
+{
+"name" : "editor_get_eol_char_len"},
+{
+"name" : "editor_get_filetype_at_line"},
+{
+"name" : "filetype_get_comment_open_close"},
+{
+"name" : "get_multiline_comment_style"},
+{
+"name" : "read_indent"},
+{
+"name" : "real_comment_multiline"},
+{
+"name" : "real_uncomment_multiline"},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_get_style_at"},
+{
+"name" : "sci_get_text_range"},
+{
+"name" : "sci_scroll_caret"},
+{
+"name" : "sci_set_current_position"},
+{
+"name" : "sci_set_selection_end"},
+{
+"name" : "sci_set_selection_start"},
+{
+"name" : "sci_start_undo_action"}
+]
+}
+]
+},
+{
+"name" : "on_menu_uncomment_line1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_do_uncomment"}
+]
+},
+{
+"name" : "on_send_selection_to_vte1_activate",
+"children" : [
+{
+"name" : "vte_send_selection_to_vte",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "msgwin_show_hide"},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_get_line"},
+{
+"name" : "sci_get_selection_contents"},
+{
+"name" : "sci_has_selection"}
+]
+}
+]
+},
+{
+"name" : "on_toggle_case1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "keybindings_send_command"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_get_selection_contents"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "sci_replace_sel"},
+{
+"name" : "sci_send_command"},
+{
+"name" : "sci_set_selection_start"},
+{
+"name" : "utils_str_has_upper"}
+]
+},
+{
+"name" : "reflow_paragraph",
+"children" : [
+{
+"name" : "editor_select_indent_block"},
+{
+"name" : "get_reflow_column"},
+{
+"name" : "reflow_lines",
+"children" : [
+{
+"name" : "editor_strip_line_trailing_spaces"},
+{
+"name" : "join_lines"},
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_line_indentation"},
+{
+"name" : "sci_get_lines_selected"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_set_line_indentation"},
+{
+"name" : "split_line",
+"children" : [
+{
+"name" : "sci_cancel"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_col_from_position"},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_get_line_end_position"},
+{
+"name" : "sci_get_position_from_col"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_send_command"},
+{
+"name" : "sci_set_current_position"}
+]
+}
+]
+},
+{
+"name" : "sci_deselect_last_newline"},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "sci_set_anchor"},
+{
+"name" : "sci_start_undo_action"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "tools_execute_custom_command",
+"children" : [
+{
+"name" : "cc_exit_cb",
+"children" : [
+{
+"name" : "cc_replace_sel_cb",
+"children" : [
+{
+"name" : "sci_replace_sel"}
+]
+},
+{
+"name" : "ui_set_statusbar"}
+]
+},
+{
+"name" : "cc_iofunc",
+"children" : [
+{
+"name" : "geany_debug"}
+]
+},
+{
+"name" : "cc_iofunc_err",
+"children" : [
+{
+"name" : "ui_set_statusbar"}
+]
+},
+{
+"name" : "editor_select_lines"},
+{
+"name" : "geany_debug"},
+{
+"name" : "sci_get_selection_contents"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_set_up_io_channel"}
+]
+}
+]
+},
+{
+"name" : "cb_func_goto_action",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_display_current_line",
+"children" : [
+{
+"name" : "editor_line_in_view"},
+{
+"name" : "sci_ensure_line_is_visible"},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_scroll_caret"}
+]
+},
+{
+"name" : "goto_matching_brace",
+"children" : [
+{
+"name" : "editor_display_current_line"},
+{
+"name" : "sci_find_matching_brace"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_set_current_position"},
+{
+"name" : "utils_isbrace"}
+]
+},
+{
+"name" : "goto_tag"},
+{
+"name" : "navqueue_go_back",
+"children" : [
+{
+"name" : "adjust_buttons"},
+{
+"name" : "goto_file_pos",
+"children" : [
+{
+"name" : "document_find_by_filename"},
+{
+"name" : "editor_goto_pos"}
+]
+}
+]
+},
+{
+"name" : "navqueue_go_forward",
+"children" : [
+{
+"name" : "adjust_buttons"},
+{
+"name" : "goto_file_pos"}
+]
+},
+{
+"name" : "on_go_to_line_activate",
+"children" : [
+{
+"name" : "dialogs_show_input_goto_line",
+"children" : [
+{
+"name" : "dialogs_show_input_full"},
+{
+"name" : "on_dialog_input"},
+{
+"name" : "ui_editable_insert_text_callback"}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_goto_line",
+"children" : [
+{
+"name" : "editor_goto_pos"},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_get_line_count"},
+{
+"name" : "sci_get_position_from_line"}
+]
+},
+{
+"name" : "get_line_and_offset_from_text"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_marker_next"},
+{
+"name" : "sci_marker_previous",
+"children" : [
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_get_line_from_position"}
+]
+},
+{
+"name" : "sci_send_command"},
+{
+"name" : "sci_set_current_line",
+"children" : [
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_set_current_position"}
+]
+},
+{
+"name" : "sci_toggle_marker_at_line"},
+{
+"name" : "toolbar_get_widget_child_by_name",
+"children" : [
+{
+"name" : "toolbar_get_widget_by_name"}
+]
+}
+]
+},
+{
+"name" : "cb_func_insert_action",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_insert_alternative_whitespace",
+"children" : [
+{
+"name" : "editor_get_indent_prefs"},
+{
+"name" : "get_whitespace"},
+{
+"name" : "sci_add_text"}
+]
+},
+{
+"name" : "insert_line_after",
+"children" : [
+{
+"name" : "sci_send_command"}
+]
+},
+{
+"name" : "insert_line_before",
+"children" : [
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_get_line_indent_position"},
+{
+"name" : "sci_send_command"},
+{
+"name" : "sci_set_current_position"}
+]
+},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "cb_func_menu_fullscreen",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "cb_func_menu_help",
+"children" : [
+{
+"name" : "on_help1_activate",
+"children" : [
+{
+"name" : "utils_get_help_url"},
+{
+"name" : "utils_open_browser"}
+]
+}
+]
+},
+{
+"name" : "cb_func_menu_messagewindow",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "cb_func_menu_opencolorchooser",
+"children" : [
+{
+"name" : "on_show_color_chooser1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_find_current_word"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "tools_color_chooser",
+"children" : [
+{
+"name" : "on_color_dialog_response",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_insert_color",
+"children" : [
+{
+"name" : "sci_add_text"},
+{
+"name" : "sci_get_char_at"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "sci_replace_sel"},
+{
+"name" : "sci_set_selection_end"},
+{
+"name" : "sci_set_selection_start"}
+]
+},
+{
+"name" : "utils_get_hex_from_color"}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "cb_func_menu_preferences",
+"children" : [
+{
+"name" : "on_plugin_preferences1_activate",
+"children" : [
+{
+"name" : "plugin_show_configure",
+"children" : [
+{
+"name" : "configure_plugins",
+"children" : [
+{
+"name" : "create_pref_page",
+"children" : [
+{
+"name" : "geany_debug"},
+{
+"name" : "on_pref_btn_clicked"}
+]
+},
+{
+"name" : "ui_dialog_vbox_new"},
+{
+"name" : "utils_beep"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "on_preferences1_activate",
+"children" : [
+{
+"name" : "prefs_show_dialog",
+"children" : [
+{
+"name" : "create_prefs_dialog"},
+{
+"name" : "encodings_to_string"},
+{
+"name" : "geany_wrap_label_new",
+"children" : [
+{
+"name" : "geany_wrap_label_get_type",
+"children" : [
+{
+"name" : "geany_wrap_label_class_intern_init",
+"children" : [
+{
+"name" : "geany_wrap_label_class_init",
+"children" : [
+{
+"name" : "geany_wrap_label_expose",
+"children" : [
+{
+"name" : "geany_wrap_label_get_type"}
+]
+},
+{
+"name" : "geany_wrap_label_size_allocate",
+"children" : [
+{
+"name" : "geany_wrap_label_set_wrap_width",
+"children" : [
+{
+"name" : "geany_wrap_label_get_type"}
+]
+}
+]
+},
+{
+"name" : "geany_wrap_label_size_request",
+"children" : [
+{
+"name" : "geany_wrap_label_get_type"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "geany_wrap_label_init",
+"children" : [
+{
+"name" : "geany_wrap_label_get_type"},
+{
+"name" : "geany_wrap_label_label_notify",
+"children" : [
+{
+"name" : "geany_wrap_label_get_type"},
+{
+"name" : "geany_wrap_label_set_wrap_width"}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "list_store_append_text"},
+{
+"name" : "on_color_button_choose_cb",
+"children" : [
+{
+"name" : "utils_get_hex_from_color"}
+]
+},
+{
+"name" : "on_enable_plugins_toggled",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "on_open_encoding_toggled",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "on_prefs_dialog_response",
+"children" : [
+{
+"name" : "configuration_save"},
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_apply_update_prefs"},
+{
+"name" : "editor_unfold_all"},
+{
+"name" : "filetypes_reload",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "document_reload_config"},
+{
+"name" : "filetypes_load_config"}
+]
+},
+{
+"name" : "kb_update",
+"children" : [
+{
+"name" : "kb_index",
+"children" : [
+{
+"name" : "keybindings_get_item"}
+]
+},
+{
+"name" : "keybindings_update_combo"}
+]
+},
+{
+"name" : "keybindings_write_to_file",
+"children" : [
+{
+"name" : "keybindings_foreach"},
+{
+"name" : "set_keyfile_kb"},
+{
+"name" : "utils_write_file"}
+]
+},
+{
+"name" : "msgwin_show_hide_tabs"},
+{
+"name" : "open_preferences_help",
+"children" : [
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "utils_get_help_url"},
+{
+"name" : "utils_open_browser"},
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "prefs_action",
+"children" : [
+{
+"name" : "stash_group_display"},
+{
+"name" : "stash_group_update"},
+{
+"name" : "stash_tree_display",
+"children" : [
+{
+"name" : "stash_tree_action",
+"children" : [
+{
+"name" : "stash_tree_display_pref"},
+{
+"name" : "stash_tree_update_pref"}
+]
+}
+]
+},
+{
+"name" : "stash_tree_update",
+"children" : [
+{
+"name" : "stash_tree_action"}
+]
+}
+]
+},
+{
+"name" : "project_apply_prefs",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "sidebar_openfiles_update_all"},
+{
+"name" : "toolbar_apply_settings"},
+{
+"name" : "toolbar_show_hide"},
+{
+"name" : "toolbar_update_ui"},
+{
+"name" : "tools_create_insert_custom_command_menu_items",
+"children" : [
+{
+"name" : "cc_insert_custom_command_items",
+"children" : [
+{
+"name" : "cc_on_custom_command_activate",
+"children" : [
+{
+"name" : "cc_show_dialog_custom_commands",
+"children" : [
+{
+"name" : "cc_dialog_add_command",
+"children" : [
+{
+"name" : "cc_dialog_update_row_status",
+"children" : [
+{
+"name" : "cc_exists_command"}
+]
+}
+]
+},
+{
+"name" : "cc_dialog_on_command_edited",
+"children" : [
+{
+"name" : "cc_dialog_update_row_status"}
+]
+},
+{
+"name" : "cc_dialog_on_label_edited"},
+{
+"name" : "cc_dialog_on_row_deleted",
+"children" : [
+{
+"name" : "cc_dialog_update_ids"},
+{
+"name" : "cc_dialog_update_sensitive"}
+]
+},
+{
+"name" : "cc_dialog_on_row_inserted",
+"children" : [
+{
+"name" : "cc_dialog_update_ids"},
+{
+"name" : "cc_dialog_update_sensitive"}
+]
+},
+{
+"name" : "cc_dialog_on_rows_reordered",
+"children" : [
+{
+"name" : "cc_dialog_update_ids"},
+{
+"name" : "cc_dialog_update_sensitive"}
+]
+},
+{
+"name" : "cc_dialog_on_tree_selection_changed",
+"children" : [
+{
+"name" : "cc_dialog_update_sensitive"}
+]
+},
+{
+"name" : "cc_dialog_update_sensitive"},
+{
+"name" : "cc_on_dialog_add_clicked",
+"children" : [
+{
+"name" : "cc_dialog_add_command"}
+]
+},
+{
+"name" : "cc_on_dialog_move_down_clicked"},
+{
+"name" : "cc_on_dialog_move_up_clicked"},
+{
+"name" : "cc_on_dialog_remove_clicked"},
+{
+"name" : "tools_create_insert_custom_command_menu_items"},
+{
+"name" : "ui_dialog_vbox_new"}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "tools_execute_custom_command"}
+]
+},
+{
+"name" : "keybindings_lookup_item"}
+]
+},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "ui_document_show_hide"},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_save_buttons_toggle"},
+{
+"name" : "ui_sidebar_show_hide"},
+{
+"name" : "ui_statusbar_showhide"},
+{
+"name" : "ui_swap_sidebar_pos"},
+{
+"name" : "ui_update_fold_items"},
+{
+"name" : "ui_update_statusbar"},
+{
+"name" : "ui_update_view_editor_menu_items"},
+{
+"name" : "vte_apply_user_settings",
+"children" : [
+{
+"name" : "override_menu_key"},
+{
+"name" : "vte_set_cursor_blink_mode"}
+]
+}
+]
+},
+{
+"name" : "on_prefs_font_choosed",
+"children" : [
+{
+"name" : "ui_set_editor_font",
+"children" : [
+{
+"name" : "editor_set_font"},
+{
+"name" : "ui_set_statusbar"}
+]
+},
+{
+"name" : "ui_widget_modify_font_from_string"}
+]
+},
+{
+"name" : "on_prefs_print_page_header_toggled",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "on_prefs_print_radio_button_toggled",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "on_show_notebook_tabs_toggled",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "on_sidebar_visible_toggled",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "on_toolbar_show_toggled",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "on_use_folding_toggled",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "prefs_dialog_key_press_response_cb",
+"children" : [
+{
+"name" : "keybindings_check_event",
+"children" : [
+{
+"name" : "key_kp_translate"}
+]
+},
+{
+"name" : "keybindings_lookup_item"},
+{
+"name" : "open_preferences_help"}
+]
+},
+{
+"name" : "prefs_init_dialog",
+"children" : [
+{
+"name" : "kb_init",
+"children" : [
+{
+"name" : "kb_init_tree",
+"children" : [
+{
+"name" : "kb_cell_edited_cb",
+"children" : [
+{
+"name" : "kb_change_iter_shortcut",
+"children" : [
+{
+"name" : "kb_find_duplicate",
+"children" : [
+{
+"name" : "dialogs_show_prompt"},
+{
+"name" : "kb_set_shortcut",
+"children" : [
+{
+"name" : "kb_index"}
+]
+}
+]
+},
+{
+"name" : "kb_set_shortcut"}
+]
+}
+]
+},
+{
+"name" : "kb_popup_menu_cb",
+"children" : [
+{
+"name" : "kb_show_popup_menu",
+"children" : [
+{
+"name" : "kb_expand_collapse_cb"},
+{
+"name" : "ui_image_menu_item_new"}
+]
+}
+]
+},
+{
+"name" : "kb_tree_view_button_press_event_cb",
+"children" : [
+{
+"name" : "kb_show_popup_menu"},
+{
+"name" : "kb_tree_view_change_button_clicked_cb",
+"children" : [
+{
+"name" : "kb_grab_key_dialog_key_press_cb"},
+{
+"name" : "kb_grab_key_dialog_response_cb",
+"children" : [
+{
+"name" : "kb_change_iter_shortcut"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "kb_tree_view_change_button_clicked_cb"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "kb_set_shortcut"},
+{
+"name" : "keybindings_get_label",
+"children" : [
+{
+"name" : "utils_str_remove_chars"}
+]
+}
+]
+},
+{
+"name" : "on_enable_plugins_toggled"},
+{
+"name" : "on_open_encoding_toggled"},
+{
+"name" : "on_prefs_print_page_header_toggled"},
+{
+"name" : "on_prefs_print_radio_button_toggled"},
+{
+"name" : "on_show_notebook_tabs_toggled"},
+{
+"name" : "on_sidebar_visible_toggled"},
+{
+"name" : "on_toolbar_show_toggled"},
+{
+"name" : "on_use_folding_toggled"},
+{
+"name" : "prefs_action"},
+{
+"name" : "project_setup_prefs",
+"children" : [
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_setup_open_button_callback"}
+]
+},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_widget_show_hide"}
+]
+},
+{
+"name" : "stash_tree_setup",
+"children" : [
+{
+"name" : "stash_tree_append_prefs",
+"children" : [
+{
+"name" : "stash_tree_append_pref"}
+]
+},
+{
+"name" : "stash_tree_boolean_toggled",
+"children" : [
+{
+"name" : "stash_tree_renderer_edited"}
+]
+},
+{
+"name" : "stash_tree_destroy_cb",
+"children" : [
+{
+"name" : "stash_tree_discard_value"}
+]
+},
+{
+"name" : "stash_tree_renderer_set_data"},
+{
+"name" : "stash_tree_string_edited",
+"children" : [
+{
+"name" : "stash_tree_renderer_edited"}
+]
+}
+]
+},
+{
+"name" : "ui_builder_get_object"},
+{
+"name" : "ui_entry_add_clear_icon"},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_setup_open_button_callback"},
+{
+"name" : "utils_get_eol_name"},
+{
+"name" : "vte_append_preferences_tab",
+"children" : [
+{
+"name" : "on_check_run_in_vte_toggled"},
+{
+"name" : "on_term_bg_color_set"},
+{
+"name" : "on_term_fg_color_set"},
+{
+"name" : "on_term_font_set",
+"children" : [
+{
+"name" : "utils_str_equal"},
+{
+"name" : "vte_apply_user_settings"}
+]
+},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_setup_open_button_callback"}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "cb_func_move_tab",
+"children" : [
+{
+"name" : "document_get_current"}
+]
+},
+{
+"name" : "cb_func_project_action",
+"children" : [
+{
+"name" : "on_project_close1_activate",
+"children" : [
+{
+"name" : "project_close"}
+]
+},
+{
+"name" : "on_project_new1_activate",
+"children" : [
+{
+"name" : "project_new",
+"children" : [
+{
+"name" : "dialogs_show_msgbox"},
+{
+"name" : "on_entries_changed"},
+{
+"name" : "on_file_save_button_clicked",
+"children" : [
+{
+"name" : "run_dialog",
+"children" : [
+{
+"name" : "utils_get_locale_from_utf8"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+}
+]
+},
+{
+"name" : "on_name_entry_changed"},
+{
+"name" : "project_ask_close",
+"children" : [
+{
+"name" : "dialogs_show_question_full"},
+{
+"name" : "project_close"}
+]
+},
+{
+"name" : "ui_add_recent_project_file",
+"children" : [
+{
+"name" : "add_recent_file"},
+{
+"name" : "recent_get_recent_projects",
+"children" : [
+{
+"name" : "recent_project_activate_cb",
+"children" : [
+{
+"name" : "project_ask_close"},
+{
+"name" : "project_load_file_with_session",
+"children" : [
+{
+"name" : "configuration_open_files"},
+{
+"name" : "document_new_file_if_non_open"},
+{
+"name" : "project_load_file",
+"children" : [
+{
+"name" : "load_config",
+"children" : [
+{
+"name" : "apply_editor_prefs"},
+{
+"name" : "build_load_menu"},
+{
+"name" : "configuration_load_session_files"},
+{
+"name" : "configuration_save_default_session",
+"children" : [
+{
+"name" : "configuration_save_session_files"},
+{
+"name" : "utils_write_file"}
+]
+},
+{
+"name" : "create_project"},
+{
+"name" : "document_close_all"},
+{
+"name" : "stash_group_load_from_key_file"},
+{
+"name" : "ui_focus_current_document"},
+{
+"name" : "update_ui"},
+{
+"name" : "utils_get_setting_integer"},
+{
+"name" : "utils_get_setting_string"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+},
+{
+"name" : "ui_add_recent_project_file"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+},
+{
+"name" : "ui_focus_current_document"}
+]
+},
+{
+"name" : "recent_file_loaded"},
+{
+"name" : "recent_get_recent_projects"},
+{
+"name" : "ui_menu_item_get_text"},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "ui_dialog_vbox_new"},
+{
+"name" : "ui_entry_add_clear_icon"},
+{
+"name" : "ui_path_box_new"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "ui_table_add_row"},
+{
+"name" : "update_config"},
+{
+"name" : "write_config"}
+]
+}
+]
+},
+{
+"name" : "on_project_open1_activate",
+"children" : [
+{
+"name" : "project_open",
+"children" : [
+{
+"name" : "project_ask_close"},
+{
+"name" : "run_open_dialog",
+"children" : [
+{
+"name" : "dialogs_show_msgbox"},
+{
+"name" : "project_load_file_with_session"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+}
+]
+},
+{
+"name" : "on_project_properties1_activate",
+"children" : [
+{
+"name" : "project_properties",
+"children" : [
+{
+"name" : "show_project_properties"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "cb_func_search_action",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "get_current_word_or_sel"},
+{
+"name" : "on_find1_activate",
+"children" : [
+{
+"name" : "search_show_find_dialog",
+"children" : [
+{
+"name" : "create_find_dialog",
+"children" : [
+{
+"name" : "add_find_checkboxes",
+"children" : [
+{
+"name" : "on_find_replace_checkbutton_toggled",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "on_widget_toggled_set_insensitive"}
+]
+},
+{
+"name" : "on_expander_activated"},
+{
+"name" : "on_find_dialog_response",
+"children" : [
+{
+"name" : "compile_regex"},
+{
+"name" : "document_find_text",
+"children" : [
+{
+"name" : "dialogs_show_question_full"},
+{
+"name" : "document_find_text"},
+{
+"name" : "sci_ensure_line_is_visible"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_goto_pos"},
+{
+"name" : "sci_set_current_position"},
+{
+"name" : "sci_set_search_anchor"},
+{
+"name" : "search_find_next",
+"children" : [
+{
+"name" : "compile_regex"},
+{
+"name" : "find_regex"},
+{
+"name" : "geany_match_info_free"},
+{
+"name" : "match_info_new"},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_search_next"},
+{
+"name" : "sci_set_selection"}
+]
+},
+{
+"name" : "search_find_prev",
+"children" : [
+{
+"name" : "match_info_new"},
+{
+"name" : "sci_search_prev"}
+]
+},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "int_search_flags"},
+{
+"name" : "search_find_usage",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "find_document_usage",
+"children" : [
+{
+"name" : "find_range",
+"children" : [
+{
+"name" : "geany_match_info_free"},
+{
+"name" : "search_find_text"}
+]
+},
+{
+"name" : "geany_match_info_free"},
+{
+"name" : "msgwin_msg_add"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_get_line"},
+{
+"name" : "sci_get_line_from_position"}
+]
+},
+{
+"name" : "msgwin_msg_add"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "search_mark_all",
+"children" : [
+{
+"name" : "editor_indicator_clear"},
+{
+"name" : "editor_indicator_set_on_range"},
+{
+"name" : "find_range"},
+{
+"name" : "geany_match_info_free"},
+{
+"name" : "sci_get_length"}
+]
+},
+{
+"name" : "stash_group_update"},
+{
+"name" : "ui_combo_box_add_to_history"},
+{
+"name" : "ui_set_search_entry_background"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_beep"},
+{
+"name" : "utils_str_replace_escape"}
+]
+},
+{
+"name" : "on_find_entry_activate",
+"children" : [
+{
+"name" : "on_find_dialog_response"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "on_find_entry_activate_backward",
+"children" : [
+{
+"name" : "on_find_dialog_response"},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "send_find_dialog_response"},
+{
+"name" : "ui_button_new_with_image"},
+{
+"name" : "ui_dialog_vbox_new"},
+{
+"name" : "ui_entry_add_activate_backward_signal"},
+{
+"name" : "ui_entry_add_clear_icon"},
+{
+"name" : "ui_hbutton_box_copy_layout",
+"children" : [
+{
+"name" : "add_to_size_group"}
+]
+}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_get_default_selection"},
+{
+"name" : "set_dialog_position"},
+{
+"name" : "stash_group_display"},
+{
+"name" : "ui_set_search_entry_background"}
+]
+}
+]
+},
+{
+"name" : "on_find_document_usage1_activate",
+"children" : [
+{
+"name" : "find_usage",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_find_current_word_sciwc"},
+{
+"name" : "sci_get_selection_contents"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "search_find_usage"}
+]
+}
+]
+},
+{
+"name" : "on_find_in_files1_activate",
+"children" : [
+{
+"name" : "search_show_find_in_files_dialog"}
+]
+},
+{
+"name" : "on_find_next1_activate",
+"children" : [
+{
+"name" : "search_find_again",
+"children" : [
+{
+"name" : "document_find_text"},
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_display_current_line"},
+{
+"name" : "toolbar_get_widget_child_by_name"},
+{
+"name" : "ui_set_search_entry_background"}
+]
+}
+]
+},
+{
+"name" : "on_find_nextsel1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "search_find_selection",
+"children" : [
+{
+"name" : "document_find_text"},
+{
+"name" : "editor_display_current_line"},
+{
+"name" : "editor_get_default_selection"},
+{
+"name" : "sci_get_selection_contents"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "search_find_again"},
+{
+"name" : "setup_find_next"},
+{
+"name" : "utils_beep"}
+]
+}
+]
+},
+{
+"name" : "on_find_previous1_activate",
+"children" : [
+{
+"name" : "search_find_again"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "on_find_prevsel1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "search_find_selection"}
+]
+},
+{
+"name" : "on_find_usage1_activate",
+"children" : [
+{
+"name" : "find_usage"}
+]
+},
+{
+"name" : "on_next_message1_activate",
+"children" : [
+{
+"name" : "msgwin_goto_messages_file_line",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "document_open_file"},
+{
+"name" : "msgwin_parse_generic_line",
+"children" : [
+{
+"name" : "make_absolute"}
+]
+},
+{
+"name" : "navqueue_goto_line"}
+]
+},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "ui_tree_view_find_next",
+"children" : [
+{
+"name" : "tree_view_find",
+"children" : [
+{
+"name" : "tree_model_iter_get_next"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "on_previous_message1_activate",
+"children" : [
+{
+"name" : "msgwin_goto_messages_file_line"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "ui_tree_view_find_previous",
+"children" : [
+{
+"name" : "tree_view_find"}
+]
+}
+]
+},
+{
+"name" : "on_replace1_activate",
+"children" : [
+{
+"name" : "search_show_replace_dialog",
+"children" : [
+{
+"name" : "create_replace_dialog",
+"children" : [
+{
+"name" : "add_find_checkboxes"},
+{
+"name" : "on_expander_activated"},
+{
+"name" : "on_replace_dialog_response",
+"children" : [
+{
+"name" : "compile_regex"},
+{
+"name" : "document_find_text"},
+{
+"name" : "document_get_current"},
+{
+"name" : "document_replace_all",
+"children" : [
+{
+"name" : "document_replace_range",
+"children" : [
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_goto_pos"},
+{
+"name" : "sci_start_undo_action"},
+{
+"name" : "search_replace_range",
+"children" : [
+{
+"name" : "find_range"},
+{
+"name" : "geany_match_info_free"},
+{
+"name" : "search_replace_match",
+"children" : [
+{
+"name" : "get_regex_match_string"},
+{
+"name" : "sci_replace_target"},
+{
+"name" : "sci_set_target_end"},
+{
+"name" : "sci_set_target_start"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "sci_get_length"},
+{
+"name" : "show_replace_summary",
+"children" : [
+{
+"name" : "ui_set_statusbar"}
+]
+}
+]
+},
+{
+"name" : "document_replace_sel",
+"children" : [
+{
+"name" : "document_replace_range"},
+{
+"name" : "editor_get_eol_char_len"},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_line_length"},
+{
+"name" : "sci_get_lines_selected"},
+{
+"name" : "sci_get_pos_at_line_sel_end"},
+{
+"name" : "sci_get_pos_at_line_sel_start"},
+{
+"name" : "sci_get_position_from_line"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_mode"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_set_selection_end"},
+{
+"name" : "sci_set_selection_mode"},
+{
+"name" : "sci_set_selection_start"},
+{
+"name" : "sci_start_undo_action"},
+{
+"name" : "show_replace_summary"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "document_replace_text",
+"children" : [
+{
+"name" : "document_find_text"},
+{
+"name" : "geany_match_info_free"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_goto_pos"},
+{
+"name" : "sci_set_selection_end"},
+{
+"name" : "sci_set_selection_start"},
+{
+"name" : "search_replace_match"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "int_search_flags"},
+{
+"name" : "replace_in_session",
+"children" : [
+{
+"name" : "document_get_from_page"},
+{
+"name" : "document_replace_all"},
+{
+"name" : "ui_save_buttons_toggle"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "stash_group_update"},
+{
+"name" : "ui_combo_box_add_to_history"},
+{
+"name" : "ui_set_search_entry_background"},
+{
+"name" : "utils_beep"},
+{
+"name" : "utils_str_replace_escape"}
+]
+},
+{
+"name" : "on_replace_entry_activate",
+"children" : [
+{
+"name" : "on_replace_dialog_response"}
+]
+},
+{
+"name" : "on_widget_key_pressed_set_focus"},
+{
+"name" : "send_replace_dialog_response"},
+{
+"name" : "ui_dialog_vbox_new"},
+{
+"name" : "ui_entry_add_clear_icon"},
+{
+"name" : "ui_hbutton_box_copy_layout"}
+]
+},
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_get_default_selection"},
+{
+"name" : "set_dialog_position"},
+{
+"name" : "stash_group_display"},
+{
+"name" : "ui_set_search_entry_background"}
+]
+}
+]
+},
+{
+"name" : "sci_get_current_position"},
+{
+"name" : "sci_has_selection"},
+{
+"name" : "search_mark_all"}
+]
+},
+{
+"name" : "cb_func_select_action",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_select_lines"},
+{
+"name" : "editor_select_paragraph",
+"children" : [
+{
+"name" : "find_paragraph_stop",
+"children" : [
+{
+"name" : "sci_get_line_count"},
+{
+"name" : "sci_is_blank_line"}
+]
+},
+{
+"name" : "sci_get_current_line"},
+{
+"name" : "sci_set_selection"}
+]
+},
+{
+"name" : "editor_select_word",
+"children" : [
+{
+"name" : "sci_set_selection"},
+{
+"name" : "sci_word_end_position"},
+{
+"name" : "sci_word_start_position"}
+]
+},
+{
+"name" : "on_menu_select_all1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "sci_select_all"}
+]
+},
+{
+"name" : "sci_send_command"},
+{
+"name" : "toolbar_get_widget_child_by_name"},
+{
+"name" : "vte_select_all"}
+]
+},
+{
+"name" : "cb_func_switch_action",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "focus_msgwindow"},
+{
+"name" : "focus_sidebar"},
+{
+"name" : "msgwin_switch_tab",
+"children" : [
+{
+"name" : "msgwin_show_hide"}
+]
+},
+{
+"name" : "sidebar_focus_openfiles_tab"},
+{
+"name" : "sidebar_focus_symbols_tab"},
+{
+"name" : "toolbar_get_widget_child_by_name"},
+{
+"name" : "ui_update_statusbar"}
+]
+},
+{
+"name" : "cb_func_switch_tablastused",
+"children" : [
+{
+"name" : "notebook_switch_tablastused",
+"children" : [
+{
+"name" : "document_show_tab"},
+{
+"name" : "on_switch_timeout",
+"children" : [
+{
+"name" : "update_filename_label",
+"children" : [
+{
+"name" : "create_switch_dialog",
+"children" : [
+{
+"name" : "on_key_release_event",
+"children" : [
+{
+"name" : "document_check_disk_status"},
+{
+"name" : "document_get_current"},
+{
+"name" : "is_modifier_key"},
+{
+"name" : "update_mru_docs_head"}
+]
+},
+{
+"name" : "ui_minimal_dialog_new"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "update_filename_label"},
+{
+"name" : "utils_beep"}
+]
+}
+]
+},
+{
+"name" : "cb_func_switch_tableft",
+"children" : [
+{
+"name" : "switch_notebook_page"}
+]
+},
+{
+"name" : "cb_func_switch_tabright",
+"children" : [
+{
+"name" : "switch_notebook_page"}
+]
+},
+{
+"name" : "cb_func_view_action",
+"children" : [
+{
+"name" : "on_menu_show_sidebar1_toggled",
+"children" : [
+{
+"name" : "keybindings_send_command"},
+{
+"name" : "ui_sidebar_show_hide"}
+]
+},
+{
+"name" : "on_menu_toggle_all_additional_widgets1_activate"},
+{
+"name" : "on_normal_size1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "sci_set_line_numbers"},
+{
+"name" : "sci_zoom_off"}
+]
+},
+{
+"name" : "on_zoom_in1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "sci_get_zoom"},
+{
+"name" : "sci_set_line_numbers"},
+{
+"name" : "sci_zoom_in"}
+]
+},
+{
+"name" : "on_zoom_out1_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "sci_get_zoom"},
+{
+"name" : "sci_set_line_numbers"},
+{
+"name" : "sci_zoom_out"}
+]
+}
+]
+},
+{
+"name" : "keybindings_get_core_group"},
+{
+"name" : "keybindings_set_item"},
+{
+"name" : "ui_lookup_stock_label"}
+]
+},
+{
+"name" : "on_key_press_event",
+"children" : [
+{
+"name" : "check_fixed_kb"},
+{
+"name" : "check_menu_key",
+"children" : [
+{
+"name" : "trigger_button_event"}
+]
+},
+{
+"name" : "check_vte",
+"children" : [
+{
+"name" : "keybindings_get_core_group"},
+{
+"name" : "on_menu_expose_event"},
+{
+"name" : "set_sensitive"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "document_check_disk_status"},
+{
+"name" : "document_get_current"},
+{
+"name" : "key_kp_translate"}
+]
+}
+]
+},
+{
+"name" : "keybindings_load_keyfile",
+"children" : [
+{
+"name" : "add_popup_menu_accels",
+"children" : [
+{
+"name" : "add_menu_accel"},
+{
+"name" : "keybindings_get_core_group"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "apply_kb_accel"},
+{
+"name" : "keybindings_foreach"},
+{
+"name" : "load_user_kb",
+"children" : [
+{
+"name" : "keybindings_foreach"},
+{
+"name" : "load_kb"},
+{
+"name" : "utils_write_file"}
+]
+}
+]
+},
+{
+"name" : "load_settings"},
+{
+"name" : "load_startup_files",
+"children" : [
+{
+"name" : "configuration_open_files"},
+{
+"name" : "load_session_project_file",
+"children" : [
+{
+"name" : "project_load_file"},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "main_load_project_from_command_line",
+"children" : [
+{
+"name" : "project_load_file"},
+{
+"name" : "project_load_file_with_session"},
+{
+"name" : "utils_get_path_from_uri"}
+]
+},
+{
+"name" : "open_cl_files",
+"children" : [
+{
+"name" : "main_get_argv_filename",
+"children" : [
+{
+"name" : "utils_is_uri"}
+]
+},
+{
+"name" : "main_handle_filename",
+"children" : [
+{
+"name" : "document_new_file"},
+{
+"name" : "document_open_file"},
+{
+"name" : "get_line_and_column_from_filename"},
+{
+"name" : "ui_add_recent_document"},
+{
+"name" : "utils_get_path_from_uri"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+},
+{
+"name" : "ui_set_statusbar"}
+]
+},
+{
+"name" : "ui_update_popup_copy_items"},
+{
+"name" : "ui_update_popup_reundo_items"}
+]
+},
+{
+"name" : "log_handlers_init",
+"children" : [
+{
+"name" : "handler_log",
+"children" : [
+{
+"name" : "get_log_prefix"},
+{
+"name" : "update_dialog"},
+{
+"name" : "utils_get_current_time_string"}
+]
+},
+{
+"name" : "handler_print",
+"children" : [
+{
+"name" : "update_dialog"}
+]
+},
+{
+"name" : "handler_printerr",
+"children" : [
+{
+"name" : "update_dialog"}
+]
+}
+]
+},
+{
+"name" : "main_get_version_string",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "main_init",
+"children" : [
+{
+"name" : "create_edit_menu1"},
+{
+"name" : "create_toolbar_popup_menu1"},
+{
+"name" : "create_window1"},
+{
+"name" : "toolbar_init",
+"children" : [
+{
+"name" : "build_toolbutton_build_clicked",
+"children" : [
+{
+"name" : "on_build_menu_item"}
+]
+},
+{
+"name" : "geany_entry_action_new",
+"children" : [
+{
+"name" : "geany_entry_action_get_type",
+"children" : [
+{
+"name" : "geany_entry_action_class_intern_init",
+"children" : [
+{
+"name" : "geany_entry_action_class_init",
+"children" : [
+{
+"name" : "geany_entry_action_connect_proxy",
+"children" : [
+{
+"name" : "delegate_entry_activate_backward_cb",
+"children" : [
+{
+"name" : "geany_entry_action_get_type"}
+]
+},
+{
+"name" : "delegate_entry_activate_cb",
+"children" : [
+{
+"name" : "geany_entry_action_get_type"}
+]
+},
+{
+"name" : "delegate_entry_changed_cb",
+"children" : [
+{
+"name" : "geany_entry_action_get_type"}
+]
+},
+{
+"name" : "geany_entry_action_get_type"},
+{
+"name" : "ui_editable_insert_text_callback"}
+]
+},
+{
+"name" : "geany_entry_action_create_tool_item",
+"children" : [
+{
+"name" : "geany_entry_action_get_type"},
+{
+"name" : "ui_entry_add_activate_backward_signal"},
+{
+"name" : "ui_entry_add_clear_icon"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "geany_entry_action_init",
+"children" : [
+{
+"name" : "geany_entry_action_get_type"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "geany_menu_button_action_new",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_type"}
+]
+},
+{
+"name" : "on_toolbar_search_entry_activate",
+"children" : [
+{
+"name" : "do_toolbar_search",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "document_search_bar_find",
+"children" : [
+{
+"name" : "editor_line_in_view"},
+{
+"name" : "editor_scroll_to_line"},
+{
+"name" : "sci_ensure_line_is_visible"},
+{
+"name" : "sci_find_text"},
+{
+"name" : "sci_get_length"},
+{
+"name" : "sci_get_line_from_position"},
+{
+"name" : "sci_get_selection_end"},
+{
+"name" : "sci_get_selection_start"},
+{
+"name" : "sci_goto_pos"},
+{
+"name" : "sci_scroll_caret"},
+{
+"name" : "sci_set_selection_end"},
+{
+"name" : "sci_set_selection_start"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "setup_find"},
+{
+"name" : "toolbar_get_widget_child_by_name"},
+{
+"name" : "ui_set_search_entry_background"}
+]
+}
+]
+},
+{
+"name" : "on_toolbar_search_entry_changed",
+"children" : [
+{
+"name" : "do_toolbar_search"}
+]
+},
+{
+"name" : "on_toolbutton_goto_entry_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "editor_goto_line"},
+{
+"name" : "get_line_and_offset_from_text"},
+{
+"name" : "keybindings_send_command"},
+{
+"name" : "utils_beep"}
+]
+},
+{
+"name" : "on_toolbutton_new_clicked",
+"children" : [
+{
+"name" : "document_new_file"}
+]
+},
+{
+"name" : "on_toolbutton_open_clicked",
+"children" : [
+{
+"name" : "dialogs_show_open_file"}
+]
+},
+{
+"name" : "toolbar_notify_style_cb",
+"children" : [
+{
+"name" : "ui_get_gtk_settings_integer"},
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "toolbar_reload",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "geany_debug"},
+{
+"name" : "geany_menu_button_action_get_menu"},
+{
+"name" : "geany_menu_button_action_get_type"},
+{
+"name" : "geany_menu_button_action_set_menu"},
+{
+"name" : "on_escape_key_press_event",
+"children" : [
+{
+"name" : "keybindings_send_command"}
+]
+},
+{
+"name" : "on_motion_event"},
+{
+"name" : "toolbar_apply_settings"},
+{
+"name" : "toolbar_get_insert_position",
+"children" : [
+{
+"name" : "toolbar_get_widget_by_name"}
+]
+},
+{
+"name" : "toolbar_get_widget_child_by_name"},
+{
+"name" : "toolbar_popup_menu"},
+{
+"name" : "ui_document_buttons_update"},
+{
+"name" : "ui_init_toolbar_widgets",
+"children" : [
+{
+"name" : "toolbar_get_widget_by_name"}
+]
+},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_save_buttons_toggle"},
+{
+"name" : "ui_update_popup_reundo_items"}
+]
+}
+]
+},
+{
+"name" : "ui_init",
+"children" : [
+{
+"name" : "create_config_files_menu",
+"children" : [
+{
+"name" : "sort_menu",
+"children" : [
+{
+"name" : "ui_menu_sort_by_label",
+"children" : [
+{
+"name" : "compare_menu_item_labels",
+"children" : [
+{
+"name" : "ui_menu_item_get_text"},
+{
+"name" : "utils_str_casecmp"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "init_custom_style"},
+{
+"name" : "init_document_widgets",
+"children" : [
+{
+"name" : "toolbar_get_action_by_name"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "init_recent_files",
+"children" : [
+{
+"name" : "geany_menu_button_action_get_type"},
+{
+"name" : "geany_menu_button_action_set_menu"},
+{
+"name" : "toolbar_get_action_by_name"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "on_editor_menu_hide",
+"children" : [
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_menu_move"}
+]
+},
+{
+"name" : "on_editor_menu_show",
+"children" : [
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_menu_move"}
+]
+},
+{
+"name" : "progress_bar_create"},
+{
+"name" : "ui_init_toolbar_widgets"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "ui_init_builder",
+"children" : [
+{
+"name" : "dialogs_show_msgbox_with_secondary"},
+{
+"name" : "ui_get_top_parent"},
+{
+"name" : "ui_guess_object_name"}
+]
+},
+{
+"name" : "ui_init_stock_items"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "main_locale_init"},
+{
+"name" : "msgwin_init",
+"children" : [
+{
+"name" : "create_message_popup_menu",
+"children" : [
+{
+"name" : "msgwin_menu_add_common_items",
+"children" : [
+{
+"name" : "on_hide_message_window",
+"children" : [
+{
+"name" : "msgwin_show_hide"}
+]
+}
+]
+},
+{
+"name" : "on_compiler_treeview_copy_activate"},
+{
+"name" : "on_compiler_treeview_copy_all_activate",
+"children" : [
+{
+"name" : "g_string_append_c_inline"}
+]
+},
+{
+"name" : "on_message_treeview_clear_activate",
+"children" : [
+{
+"name" : "msgwin_clear_tab",
+"children" : [
+{
+"name" : "build_menu_update"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "on_scribble_populate",
+"children" : [
+{
+"name" : "msgwin_menu_add_common_items"}
+]
+},
+{
+"name" : "prepare_compiler_tree_view",
+"children" : [
+{
+"name" : "on_msgwin_button_press_event",
+"children" : [
+{
+"name" : "msgwin_goto_compiler_file_line",
+"children" : [
+{
+"name" : "find_prev_build_dir",
+"children" : [
+{
+"name" : "build_parse_make_dir"}
+]
+},
+{
+"name" : "goto_compiler_file_line",
+"children" : [
+{
+"name" : "document_find_by_filename"},
+{
+"name" : "document_get_current"},
+{
+"name" : "document_open_file"},
+{
+"name" : "editor_indicator_set_on_line"},
+{
+"name" : "navqueue_goto_line"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_get_current_file_dir_utf8"},
+{
+"name" : "utils_get_locale_from_utf8"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+},
+{
+"name" : "msgwin_parse_compiler_error_line"}
+]
+},
+{
+"name" : "msgwin_goto_messages_file_line"}
+]
+},
+{
+"name" : "on_msgwin_key_press_event",
+"children" : [
+{
+"name" : "msgwin_goto_compiler_file_line"},
+{
+"name" : "msgwin_goto_messages_file_line"},
+{
+"name" : "ui_is_keyval_enter_or_return"}
+]
+},
+{
+"name" : "ui_widget_modify_font_from_string"}
+]
+},
+{
+"name" : "prepare_msg_tree_view",
+"children" : [
+{
+"name" : "on_msgwin_button_press_event"},
+{
+"name" : "on_msgwin_key_press_event"},
+{
+"name" : "ui_widget_modify_font_from_string"}
+]
+},
+{
+"name" : "prepare_status_tree_view",
+"children" : [
+{
+"name" : "on_msgwin_button_press_event"},
+{
+"name" : "ui_widget_modify_font_from_string"}
+]
+},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_widget_modify_font_from_string"}
+]
+},
+{
+"name" : "navqueue_init",
+"children" : [
+{
+"name" : "toolbar_get_action_by_name"}
+]
+},
+{
+"name" : "notebook_init",
+"children" : [
+{
+"name" : "notebook_tab_bar_click_cb",
+"children" : [
+{
+"name" : "document_new_file"},
+{
+"name" : "is_position_on_tab_bar",
+"children" : [
+{
+"name" : "gtk_notebook_show_arrows"}
+]
+},
+{
+"name" : "show_tab_bar_popup_menu"}
+]
+},
+{
+"name" : "on_document_close"},
+{
+"name" : "on_key_release_event"},
+{
+"name" : "on_notebook_switch_page",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "document_get_from_page"},
+{
+"name" : "update_mru_docs_head"}
+]
+},
+{
+"name" : "on_window_drag_data_received",
+"children" : [
+{
+"name" : "document_open_file_list"}
+]
+},
+{
+"name" : "setup_tab_dnd",
+"children" : [
+{
+"name" : "notebook_page_reordered_cb"}
+]
+}
+]
+},
+{
+"name" : "on_exit_clicked"},
+{
+"name" : "on_motion_event"},
+{
+"name" : "on_window_state_event",
+"children" : [
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "parse_command_line_options",
+"children" : [
+{
+"name" : "filetypes_free_types"},
+{
+"name" : "filetypes_init_types"},
+{
+"name" : "geany_debug"},
+{
+"name" : "main_get_version_string"},
+{
+"name" : "print_filetypes",
+"children" : [
+{
+"name" : "filetypes_free_types"},
+{
+"name" : "filetypes_get_sorted_by_name",
+"children" : [
+{
+"name" : "cmp_filetype"}
+]
+},
+{
+"name" : "filetypes_init_types"}
+]
+},
+{
+"name" : "symbols_generate_global_tags",
+"children" : [
+{
+"name" : "detect_global_tags_filetype"},
+{
+"name" : "filetypes_load_config"},
+{
+"name" : "geany_debug"},
+{
+"name" : "load_c_ignore_tags"},
+{
+"name" : "symbols_finalize"},
+{
+"name" : "utils_get_utf8_from_locale"}
+]
+},
+{
+"name" : "utils_parse_and_format_build_date",
+"children" : [
+{
+"name" : "utils_parse_date"}
+]
+},
+{
+"name" : "wait_for_input_on_windows"}
+]
+},
+{
+"name" : "plugins_init",
+"children" : [
+{
+"name" : "configuration_add_pref_group"},
+{
+"name" : "geany_debug"},
+{
+"name" : "get_plugin_path"},
+{
+"name" : "stash_group_add_entry"},
+{
+"name" : "stash_group_add_string_vector",
+"children" : [
+{
+"name" : "add_pref"}
+]
+},
+{
+"name" : "stash_group_add_toggle_button"},
+{
+"name" : "stash_group_new"},
+{
+"name" : "update_active_plugins_pref"}
+]
+},
+{
+"name" : "plugins_load_active",
+"children" : [
+{
+"name" : "geany_data_init"},
+{
+"name" : "load_active_plugins",
+"children" : [
+{
+"name" : "check_plugin_path",
+"children" : [
+{
+"name" : "get_custom_plugin_path",
+"children" : [
+{
+"name" : "utils_get_locale_from_utf8"},
+{
+"name" : "utils_str_equal"},
+{
+"name" : "utils_tidy_path"}
+]
+},
+{
+"name" : "get_plugin_path"}
+]
+},
+{
+"name" : "plugin_new",
+"children" : [
+{
+"name" : "find_active_plugin_by_name",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+},
+{
+"name" : "geany_debug"},
+{
+"name" : "plugin_check_version",
+"children" : [
+{
+"name" : "geany_debug"},
+{
+"name" : "msgwin_status_add"}
+]
+},
+{
+"name" : "plugin_init",
+"children" : [
+{
+"name" : "add_callbacks",
+"children" : [
+{
+"name" : "plugin_signal_connect"}
+]
+},
+{
+"name" : "cmp_plugin_names"},
+{
+"name" : "geany_debug"},
+{
+"name" : "read_key_group",
+"children" : [
+{
+"name" : "geany_debug"},
+{
+"name" : "plugin_set_key_group",
+"children" : [
+{
+"name" : "keybindings_set_group",
+"children" : [
+{
+"name" : "add_kb_group"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "ui_add_document_sensitive",
+"children" : [
+{
+"name" : "on_doc_sensitive_widget_destroy"},
+{
+"name" : "ui_widget_set_sensitive"}
+]
+}
+]
+},
+{
+"name" : "plugin_loaded",
+"children" : [
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "on_tools_menu_show",
+"children" : [
+{
+"name" : "ui_widget_show_hide"}
+]
+},
+{
+"name" : "pm_show_dialog",
+"children" : [
+{
+"name" : "create_table_label"},
+{
+"name" : "geany_wrap_label_new"},
+{
+"name" : "load_all_plugins",
+"children" : [
+{
+"name" : "get_custom_plugin_path"},
+{
+"name" : "get_plugin_path"},
+{
+"name" : "load_plugins_from_path",
+"children" : [
+{
+"name" : "geany_debug"},
+{
+"name" : "plugin_new"},
+{
+"name" : "utils_get_file_list"},
+{
+"name" : "utils_str_casecmp"}
+]
+}
+]
+},
+{
+"name" : "pm_dialog_response",
+"children" : [
+{
+"name" : "configuration_save"},
+{
+"name" : "free_non_active_plugin",
+"children" : [
+{
+"name" : "is_active_plugin"},
+{
+"name" : "plugin_free"}
+]
+}
+]
+},
+{
+"name" : "pm_on_plugin_button_clicked",
+"children" : [
+{
+"name" : "keybindings_dialog_show_prefs_scroll",
+"children" : [
+{
+"name" : "key_dialog_show_prefs",
+"children" : [
+{
+"name" : "prefs_show_dialog"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "prefs_kb_search_name"}
+]
+},
+{
+"name" : "plugin_show_configure"}
+]
+},
+{
+"name" : "pm_prepare_treeview",
+"children" : [
+{
+"name" : "is_active_plugin"},
+{
+"name" : "pm_plugin_toggled",
+"children" : [
+{
+"name" : "keybindings_load_keyfile"},
+{
+"name" : "keybindings_write_to_file"},
+{
+"name" : "plugin_free"},
+{
+"name" : "plugin_new"},
+{
+"name" : "pm_update_buttons",
+"children" : [
+{
+"name" : "is_active_plugin"}
+]
+}
+]
+},
+{
+"name" : "pm_selection_changed",
+"children" : [
+{
+"name" : "pm_update_buttons"}
+]
+}
+]
+},
+{
+"name" : "ui_dialog_vbox_new"}
+]
+}
+]
+},
+{
+"name" : "project_init"},
+{
+"name" : "search_init",
+"children" : [
+{
+"name" : "init_prefs",
+"children" : [
+{
+"name" : "configuration_add_pref_group"},
+{
+"name" : "stash_group_add_boolean"},
+{
+"name" : "stash_group_add_combo_box"},
+{
+"name" : "stash_group_add_entry"},
+{
+"name" : "stash_group_add_integer"},
+{
+"name" : "stash_group_add_toggle_button"},
+{
+"name" : "stash_group_new"}
+]
+}
+]
+},
+{
+"name" : "send_startup_complete"},
+{
+"name" : "setup_config_dir",
+"children" : [
+{
+"name" : "create_config_dir",
+"children" : [
+{
+"name" : "dialogs_show_msgbox"},
+{
+"name" : "dialogs_show_question_full"},
+{
+"name" : "geany_debug"},
+{
+"name" : "utils_is_file_writable"},
+{
+"name" : "utils_mkdir"},
+{
+"name" : "utils_write_file"}
+]
+},
+{
+"name" : "dialogs_show_question"},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "setup_gtk2_styles"},
+{
+"name" : "setup_paths",
+"children" : [
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "setup_window_position"},
+{
+"name" : "sidebar_init",
+"children" : [
+{
+"name" : "configuration_add_pref_group"},
+{
+"name" : "on_load_settings",
+"children" : [
+{
+"name" : "prepare_openfiles",
+"children" : [
+{
+"name" : "documents_sort_func"},
+{
+"name" : "sidebar_button_press_cb"},
+{
+"name" : "sidebar_key_press_cb"},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "ui_widget_modify_font_from_string"}
+]
+},
+{
+"name" : "sidebar_tabs_show_hide"},
+{
+"name" : "stash_group_display"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "on_save_settings",
+"children" : [
+{
+"name" : "sidebar_tabs_show_hide"},
+{
+"name" : "stash_group_update"}
+]
+},
+{
+"name" : "sidebar_tabs_show_hide"},
+{
+"name" : "stash_group_add_boolean"},
+{
+"name" : "stash_group_add_widget_property",
+"children" : [
+{
+"name" : "add_widget_pref"},
+{
+"name" : "object_get_property_type"}
+]
+},
+{
+"name" : "stash_group_new"}
+]
+},
+{
+"name" : "sidebar_select_openfiles_item",
+"children" : [
+{
+"name" : "tree_model_find_node",
+"children" : [
+{
+"name" : "unfold_parent"}
+]
+}
+]
+},
+{
+"name" : "sidebar_update_tag_list"},
+{
+"name" : "socket_init",
+"children" : [
+{
+"name" : "check_socket_permissions",
+"children" : [
+{
+"name" : "dialogs_show_msgbox"}
+]
+},
+{
+"name" : "remove_socket_link_full"},
+{
+"name" : "send_open_command",
+"children" : [
+{
+"name" : "geany_debug"},
+{
+"name" : "main_get_argv_filename"},
+{
+"name" : "socket_fd_write_all",
+"children" : [
+{
+"name" : "socket_fd_write",
+"children" : [
+{
+"name" : "socket_fd_check_io",
+"children" : [
+{
+"name" : "geany_debug"}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name" : "socket_fd_close"},
+{
+"name" : "socket_fd_connect_unix",
+"children" : [
+{
+"name" : "socket_fd_close"}
+]
+},
+{
+"name" : "socket_fd_open_unix",
+"children" : [
+{
+"name" : "socket_fd_close"},
+{
+"name" : "utils_is_file_writable"}
+]
+},
+{
+"name" : "socket_get_document_list",
+"children" : [
+{
+"name" : "socket_fd_read",
+"children" : [
+{
+"name" : "socket_fd_check_io"}
+]
+},
+{
+"name" : "socket_fd_write_all"},
+{
+"name" : "utils_str_equal"}
+]
+}
+]
+},
+{
+"name" : "socket_lock_input_cb",
+"children" : [
+{
+"name" : "build_document_list",
+"children" : [
+{
+"name" : "g_string_append_c_inline"}
+]
+},
+{
+"name" : "handle_input_filename",
+"children" : [
+{
+"name" : "encodings_convert_to_utf8",
+"children" : [
+{
+"name" : "encodings_check_regexes"},
+{
+"name" : "encodings_convert_to_utf8_with_suggestion"}
+]
+},
+{
+"name" : "main_handle_filename"},
+{
+"name" : "main_load_project_from_command_line"},
+{
+"name" : "project_ask_close"},
+{
+"name" : "utils_get_locale_from_utf8"}
+]
+},
+{
+"name" : "socket_fd_close"},
+{
+"name" : "socket_fd_gets",
+"children" : [
+{
+"name" : "socket_fd_read"},
+{
+"name" : "socket_fd_recv",
+"children" : [
+{
+"name" : "socket_fd_check_io"}
+]
+}
+]
+},
+{
+"name" : "socket_fd_write_all"}
+]
+},
+{
+"name" : "symbols_init",
+"children" : [
+{
+"name" : "create_taglist_popup_menu",
+"children" : [
+{
+"name" : "on_expand_collapse",
+"children" : [
+{
+"name" : "document_get_current"}
+]
+},
+{
+"name" : "on_find_usage",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "search_find_usage"},
+{
+"name" : "search_show_find_in_files_dialog_full"}
+]
+},
+{
+"name" : "on_symbol_tree_menu_show",
+"children" : [
+{
+"name" : "document_get_current"}
+]
+},
+{
+"name" : "on_symbol_tree_sort_clicked",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "symbols_recreate_tag_list"}
+]
+},
+{
+"name" : "sidebar_add_common_menu_items"},
+{
+"name" : "ui_image_menu_item_new"}
+]
+},
+{
+"name" : "on_document_save"},
+{
+"name" : "ui_add_config_file_menu_item"}
+]
+},
+{
+"name" : "templates_init"},
+{
+"name" : "tools_create_insert_custom_command_menu_items"},
+{
+"name" : "ui_create_insert_date_menu_items",
+"children" : [
+{
+"name" : "insert_date_items",
+"children" : [
+{
+"name" : "on_insert_date_activate",
+"children" : [
+{
+"name" : "dialogs_show_input"},
+{
+"name" : "document_get_current"},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_goto_pos"},
+{
+"name" : "sci_insert_text"},
+{
+"name" : "sci_start_undo_action"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "utils_beep"},
+{
+"name" : "utils_get_date_time"},
+{
+"name" : "utils_str_equal"},
+{
+"name" : "verify_click_pos",
+"children" : [
+{
+"name" : "sci_get_current_position"}
+]
+}
+]
+},
+{
+"name" : "on_menu_insert_date_activate",
+"children" : [
+{
+"name" : "on_insert_date_activate"}
+]
+}
+]
+},
+{
+"name" : "on_insert_date_activate"},
+{
+"name" : "on_menu_insert_date_activate"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "ui_create_insert_menu_items",
+"children" : [
+{
+"name" : "insert_include_items",
+"children" : [
+{
+"name" : "on_insert_include_activate",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "sci_end_undo_action"},
+{
+"name" : "sci_goto_pos"},
+{
+"name" : "sci_insert_text"},
+{
+"name" : "sci_start_undo_action"},
+{
+"name" : "utils_str_equal"},
+{
+"name" : "verify_click_pos"}
+]
+},
+{
+"name" : "on_menu_insert_include_activate",
+"children" : [
+{
+"name" : "on_insert_include_activate"}
+]
+}
+]
+},
+{
+"name" : "on_insert_include_activate"},
+{
+"name" : "on_menu_insert_include_activate"},
+{
+"name" : "ui_lookup_widget"}
+]
+},
+{
+"name" : "ui_create_recent_menus",
+"children" : [
+{
+"name" : "recent_create_menu"},
+{
+"name" : "recent_get_recent_files"},
+{
+"name" : "recent_get_recent_projects"}
+]
+},
+{
+"name" : "ui_document_buttons_update"},
+{
+"name" : "ui_init_prefs",
+"children" : [
+{
+"name" : "configuration_add_various_pref_group"},
+{
+"name" : "stash_group_add_boolean"},
+{
+"name" : "stash_group_add_string"},
+{
+"name" : "stash_group_new"}
+]
+},
+{
+"name" : "ui_save_buttons_toggle"},
+{
+"name" : "ui_set_statusbar"},
+{
+"name" : "ui_sidebar_show_hide"},
+{
+"name" : "vte_init",
+"children" : [
+{
+"name" : "create_vte",
+"children" : [
+{
+"name" : "on_motion_event"},
+{
+"name" : "on_vte_realize",
+"children" : [
+{
+"name" : "vte_apply_user_settings"}
+]
+},
+{
+"name" : "vte_button_pressed"},
+{
+"name" : "vte_commit_cb"},
+{
+"name" : "vte_create_popup_menu",
+"children" : [
+{
+"name" : "msgwin_menu_add_common_items"},
+{
+"name" : "vte_popup_menu_clicked",
+"children" : [
+{
+"name" : "document_get_current"},
+{
+"name" : "prefs_show_dialog"},
+{
+"name" : "ui_lookup_widget"},
+{
+"name" : "vte_cwd"},
+{
+"name" : "vte_restart",
+"children" : [
+{
+"name" : "vte_get_working_directory"}
+]
+},
+{
+"name" : "vte_select_all"}
+]
+}
+]
+},
+{
+"name" : "vte_drag_data_received"},
+{
+"name" : "vte_keypress_cb",
+"children" : [
+{
+"name" : "vte_restart"}
+]
+},
+{
+"name" : "vte_keyrelease_cb",
+"children" : [
+{
+"name" : "ui_is_keyval_enter_or_return"}
+]
+},
+{
+"name" : "vte_start",
+"children" : [
+{
+"name" : "vte_get_child_environment",
+"children" : [
+{
+"name" : "utils_copy_environment"}
+]
+}
+]
+}
+]
+},
+{
+"name" : "geany_debug"},
+{
+"name" : "override_menu_key"},
+{
+"name" : "vte_register_symbols"}
+]
+}
+]
+}
